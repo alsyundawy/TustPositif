@@ -18,7 +18,7 @@
 
 **Anda bebas untuk mengubah, mendistribusikan script ini untuk keperluan anda**
 
-**Credit @2023 APJII (Asosiasi Penyelenggara Jasa Internet Indonesia) & TrustPositif Kementerian Komunikasi dan Informatika (KOMINFO)**
+**Credit @2024 APJII (Asosiasi Penyelenggara Jasa Internet Indonesia) & TrustPositif Kementerian Komunikasi dan Informatika (KOMINFO)**
 
 ### Anda Memang Luar Biasa | Harry DS Alsyundawy | Kaum Rebahan Garis Keras & Militan
 
