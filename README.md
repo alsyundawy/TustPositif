@@ -15,6 +15,8 @@
 [![GitHub Forks](https://img.shields.io/github/forks/alsyundawy/TrustPositif?style=social)](https://github.com/alsyundawy/TrustPositif/network/members)
 [![GitHub Contributors](https://img.shields.io/github/contributors/alsyundawy/TrustPositif?style=social)](https://github.com/alsyundawy/TrustPositif/graphs/contributors)
 
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/alsyundawy/TrustPositif.svg?variant=adaptive)](https://starchart.cc/alsyundawy/TrustPositif)
 
 **Anda bebas untuk mengubah, mendistribusikan script ini untuk keperluan anda**
 
