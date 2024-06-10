@@ -1,6 +1,19 @@
+# Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
+# Description: Prevent methods to bypass your DNS, blocks encrypted DNS only
+# Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT (TCP 853) outbound.
+# Homepage: https://github.com/hagezi/dns-blocklists
+# License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
+# Issues: https://github.com/hagezi/dns-blocklists/issues
+# Expires: 7 days
+# Last modified: 07 Jun 2024 22:52 UTC
+# Version: 2024.0607.2252.28
+# Syntax: Domains (without subdomains)
+# Number of entries: 1077
+#
 ns.00dani.me
 cdn.0ms.dev
 dns.0ooo.icu
+dns.0x55.net
 cloud.198.games
 1and1-dns.de
 dns.23-4.cn
@@ -11,11 +24,11 @@ doh.30x.me
 dns.354688.xyz
 doh.360.cn
 dot.360.cn
+3dns.eu
 dns.4-the.win
 doh.42l.fr
 alidns.51top.info
 dns.52306.org
-dns.5ososea.com
 family.5ososea.com
 kids.5ososea.com
 jp.68360612.xyz
@@ -23,6 +36,8 @@ dns.7vpn.com
 dns.886886886.xyz
 dns.888654.xyz
 8888.google
+dns.9999.sg
+dns.a47.me
 doh.aaaab3n.moe
 adb.aadityakushwaha.com
 dns.aaflalo.me
@@ -31,6 +46,7 @@ dns-nyc.aaflalo.me
 doh.dns.apple.com.v.aaplimg.com
 adguard.abd.ong
 dns.abdullahabas.de
+doh.abraservice.xyz
 res-acst1.absolight.net
 res-acst2.absolight.net
 res-acst3.absolight.net
@@ -39,9 +55,11 @@ resolver2.absolight.net
 resolver3.absolight.net
 block.abstergo.it
 doh.iucc.ac.il
+adblockersite.com
 adl.adfilter.net
 per.adfilter.net
 syd.adfilter.net
+adfreedns.top
 dns.adguard.com
 dns-family.adguard.com
 dns-unfiltered.adguard.com
@@ -60,19 +78,15 @@ dnsnl.alekberg.net
 dnsnl-noads.alekberg.net
 dnsse.alekberg.net
 dnsse-noads.alekberg.net
-odoh-target.alekberg.net
-odoh-target-noads.alekberg.net
-odoh-target-noads-se.alekberg.net
-odoh-target-se.alekberg.net
 alidns.com
 httpdns-sc.aliyuncs.com
+alleesph.online
 dns.alloxr.info
 dns.almir1904.eu
-chaos.altendorfme.com
 dns.alvosec.com
 mailer.amlegion.org
+doh.amonsul.net
 dns.andrewnw.xyz
-dns.anonymous.pw
 secure.anudeep.me
 doh.apad.pro
 dns.apigw.online
@@ -82,9 +96,11 @@ dot1.applied-privacy.net
 doh.appliedprivacy.net
 dot1.appliedprivacy.net
 dns.aquilenet.fr
+doh.archuser.org
 dns.ares-taiwan.com
 nsec.arnor.org
 dns.artikel10.org
+dns.asterimoon.com
 dandelionsprout.asuscomm.com
 adguardhome.atakorah.com
 dohtrial.att.net
@@ -94,8 +110,10 @@ doh.azoris.ovh
 dns.azsopro.net
 doh1.b-cdn.net
 doh2.b-cdn.net
+b-ii.com
 dns.b33.space
 dns.b612.me
+dns.baishiyuan.cn
 fr-dns1.bancuh.com
 jp-dns1.bancuh.com
 sg-dns1.bancuh.com
@@ -108,6 +126,13 @@ dns.belnet.be
 dns.benpro.fr
 ns3.bit-trail.nl
 dns.bitdefender.net
+fra-dns.bitdefender.net
+iow-dns.bitdefender.net
+lon-dns.bitdefender.net
+nvi-dns.bitdefender.net
+ore-dns.bitdefender.net
+tky-dns.bitdefender.net
+dns.bitservices.io
 dns-tls.bitwiseshift.net
 2.dnscrypt-cert.blahdns.com
 doh.blahdns.com
@@ -138,13 +163,14 @@ doh.bortzmeyer.fr
 cloudns.bosco.ovh
 dns.brahma.world
 bravedns.com
-ag.brianlee.fun
 doh.bt.com
 stratus.bugz.fr
 c-dns.com
+dns.caksono.com
 callies-online.site
 2.dnscrypt-cert.captnemo.in
 doh.captnemo.in
+console.carestyle.org
 dns.carson-family.com
 dns.carter.me
 catdns.org
@@ -160,7 +186,6 @@ chandr1000.net
 chaos-system.de
 dns.charraud.eu
 dns.chenu.ch
-dns.chocolatezz.xyz
 dns.chromeina.top
 oraclejp2.chungyu.com
 c.cicitt.ch
@@ -174,20 +199,25 @@ dns.233py.com.cdn.cloudflare.net
 dns.cloudflare.com
 cloudflare-dns.com
 cloudflare-gateway.com
+api.cloudflareclient.com
+cloudflareresolve.com
+voyage-s01.cloudku.technology
 adguard.cloudmini.net
 dns-secondary.cloudnx.cloud
-dns.cloudseriousshit.com
 dns-fr-psv1.cloudsides.com
 dns.cloudtrust.solutions
 ca.doh.cloudveil.org
 us.doh.cloudveil.org
 dns.cmrg.net
 pope.cnblw.me
-adguard.aa4.co.uk
+doh.cnetwork.cloud
 pihole.datamatter.co.za
 www.dnsadguard.co.uk
 dns.gi.co.id
 ag.hostme.co.il
+dns.neilzone.co.uk
+dns.oliviertv.co.za
+pooblet.co.za
 sbdns.co.in
 dns.spil.co.id
 jpdns.cola16.app
@@ -217,7 +247,6 @@ cubedns.com
 qual.cuprum.ru
 dns.cwlys.com
 nanopi.cybergroove.net
-cynntex.fun
 dns.cynthialabs.net
 dns.d4d.moe
 dns.d94.xyz
@@ -231,10 +260,12 @@ dns.daw.dev
 jit.ddns.net
 dns.decloudus.com
 doh.defaultroutes.de
+dns.dekedin.me
 adguard.dekonix.ru
 adguard.depieri.net
 adguard.lege.despagne.net
 doh-primary-pool.detoxifypornblocker.com
+dns.dev-umbrellagov.com
 mainframe.dewed.de
 dns.dgea.fr
 dns.digitale-gesellschaft.ch
@@ -268,9 +299,10 @@ atl01.dnscry.pt
 bom01.dnscry.pt
 coe01.dnscry.pt
 cvt01.dnscry.pt
-dfw01.dnscry.pt
 dtw01.dnscry.pt
+dub01.dnscry.pt
 dus01.dnscry.pt
+fjr01.dnscry.pt
 fra01.dnscry.pt
 geg01.dnscry.pt
 hkg01.dnscry.pt
@@ -307,23 +339,12 @@ waw02.dnscry.pt
 yul01.dnscry.pt
 zal01.dnscry.pt
 dns1.dnscrypt.ca
-dns2.dnscrypt.ca
 do.dnscrypt.uk
 doh.dnscrypt.uk
-dns1.ipv6.dnscrypt.ca
-dns2.ipv6.dnscrypt.ca
 v.dnscrypt.uk
-dnsenc.com
 dnsforfamily.com
 dnsforge.de
 dns.dnshome.de
-doh.dnslify.com
-a.ns.dnslify.com
-b.ns.dnslify.com
-a.family.ns.dnslify.com
-b.family.ns.dnslify.com
-a.safe.ns.dnslify.com
-b.safe.ns.dnslify.com
 dnslow.me
 dns.dnsoverhttps.net
 dns.dnssilo.top
@@ -338,16 +359,19 @@ fr1.dnswarden.com
 sg1.dnswarden.com
 uncensored-dot.dnswarden.com
 doh.us.dnswarden.com
+dnswebvsn.com
 doh.beauty
 doh.buzz
 doh.li
 doh.lv
 doh.pub
 doh.sb
+doh.xyz
 dns.doh.best
 takhtakh.domyah.net
 dot.pub
 ns1.dotls.org
+dns.dotnet.win
 doh.dscloud.me
 aattwwss.duckdns.org
 home27.duckdns.org
@@ -370,25 +394,28 @@ dns.tuna.tsinghua.edu.cn
 adguard.ef67daisuki.club
 hole.elbschloss.xyz
 dns.elemental.software
-dns.ellichua.com
-elshad-adgh-dns.ru
 dns.emiliyan.com
 adguard.ender.fr
 home.enjoymylife.net
+dns.enzonix.com
+bl.eq.md
 shield1.eranext.net
+dns.esnube.es
 opennic1.eth-services.de
 arashi.eu.org
 armorrush.eu.org
 dns.fullaccesstointernet.jp.eu.org
-www.memorialus.eu.org
+sukidayo.eu.org
 everovpn.co
 dns.extrawdw.net
 fra1.eyecay.xyz
+dns.ezyss.id
+jp1.f7b6h9.tk
 dns.f97.xyz
 pdns.faelix.net
 rdns.faelix.net
+dnsvps.familiamv.net
 dns.fancyorg.at
-dns.faze.dev
 ns0.fdn.fr
 ns1.fdn.fr
 fezgate.ovh
@@ -402,9 +429,9 @@ dns01.flm9.net
 ns1.flodns.net
 ns2.flodns.net
 agh.fltn.us
+dns.flwagners.com
 dns.flymc.cc
 gateway.fomichev.cloud
-dns.foximao.cn
 hkname.freecdn.one
 dns.freyja.pw
 dns.froth.zone
@@ -416,7 +443,9 @@ doh.futa.gg
 dns.futuredns.me
 cluster-0.gac.edu
 cluster-1.gac.edu
+dns.gamban.com
 dns.beta.gandi.net
+gclouddns.com
 geshido.vpn.geshido.ru
 getdnsapi.net
 dns.ginovs.nl
@@ -437,20 +466,18 @@ dns.google.com
 google-public-dns-a.google.com
 google-public-dns-b.google.com
 dot.libredns.gr.com
-jp.gridns.xyz
-sg.gridns.xyz
 dns.grqu.de
 dns.guard.io
+dns2.guidocioni.it
 gztech.me
 dns.hahnjo.de
 dns.hanahira.dev
 adguard.haneulo.com
 dns.hanmey.de
-dns.haoxuan.xyz
+hanniel.tech
 resolver-eu.haringstad.com
 query.hdns.io
 ordns.he.net
-us-ny-alula.heliumcloud.cc
 dns.henek.ovh
 ad1.heronet.nl
 httpdns-push.heytapmobile.com
@@ -461,6 +488,7 @@ pihole2.hoerli.net
 pihole3.hoerli.net
 pihole4.hoerli.net
 keithchung.hopto.org
+dns.horcrux.vip
 dns.internal.hosmatic.com
 dns.hostux.net
 dns.hotta.page
@@ -473,12 +501,13 @@ doth.huque.com
 dns.huseynov.work
 ad.huyct.net
 dns.huyhoangit.net
+dns.hypercute.eu
 opennic.i2pd.xyz
 opennic2.i2pd.xyz
 dns.bw.i81.ru
 vd.i81.ru
 dns.iamninja.ru
-dns-public.ibakerserver.pt
+dns.ian.rocks
 mask.icloud.com
 mask-api.icloud.com
 mask-h2.icloud.com
@@ -493,7 +522,9 @@ buc-m2.illmods.com
 dns.imaicool.com
 noads.imbuffering.com
 dns4.imkvq.com
+dns.immanuelschaffer.de
 dns1.in-berlin.de
+adblock.indianets.net
 dns.indust.me
 dns.indybanipal.com
 dns.infosec.xyz
@@ -504,9 +535,6 @@ dns.interhub.cc
 iot-dns.com
 ipoac.nl
 dns.ipv6dns.com
-ns1-doh.iriseden.fr
-ns2-doh.iriseden.fr
-irre.li
 dns1.irumatech.com
 dns.islandnet.com
 pdns.itxe.net
@@ -514,10 +542,12 @@ ivnkn.xyz
 jabber-germany.de
 jackyes.ovh
 tj.jamesxue.xyz
+dns.janl.eu
 doh.jeroenhd.nl
 adguard.jfchenier.ca
 dns.jinwoo.dev
 adg.jnorton.us
+green2.jnraptor.net
 dns.joey01245.nl
 opencdn.jomodns.com
 adguard1.jsanagustin.net
@@ -527,8 +557,12 @@ ad.justincounts.com
 dns.justinnetworkingsolutions.com
 dns.k3nny.fr
 dns.kamilszczepanski.com
+dns.karfamily.net
 dns.karl.one
 dns.kawa.tf
+dns.keke125.com
+doh.kekew.info
+dns.kerekes.xyz
 dns.kernel-error.de
 dns.kescher.at
 pihole.aws.ketan.dev
@@ -540,12 +574,17 @@ blog.kimiblock.top
 dns1.klcd.eu
 dns2.klcd.eu
 adguard.konikoni428.com
+doh.kooman.org
 korzhov.dev
 dns.kosan.moe
 dart.kpsn.org
 xray.krnl.eu
 adguard.kss.ovh
+dns.kugoapps.com
+dns.kukal.cz
+dns.kusoneko.moe
 dns.l337.site
+dns.labnekotest.site
 doh.lacontrevoie.fr
 dns.lars-lehmann.net
 dns.lashes-brow.ru
@@ -553,18 +592,21 @@ lastentarvike.fi
 eu1.dns.lavate.ch
 us1.dns.lavate.ch
 adguard1.leadmon.net
+adguard.leadseason.eu
 adblock.leenit.kr
 yarp.lefolgoc.net
 br.servers.legat.ml
 externalmobiel.lekdijk.online
 lelux.fi
+dns.levonet.sk
+dns2.lezainski.com
 dns.lgprk.com
 doh.libredns.gr
 dot.libredns.gr
 sby-doh.limotelu.org
 dns.linkr.ninja
 dns2.linzefeng.top
-adguard.londonwebnerd.cloud
+dns.lobbygod.com
 doh.dns1.lonet.org
 doh.phdns1.lonet.org
 doh.phdns2.lonet.org
@@ -577,14 +619,18 @@ dns.lvolland.fr
 orau.lz0724.com
 addns1.m-it.ro
 mailkyb.co
+dns.mandre.dev
+dns.maolaohei.xyz
+ag.marschi.de
 adguard.marto.si
+doh.maskab.com
 masters-of-cloud.de
 dns.mathewakhil.online
-adguard.mattiafenzi.uk
 maxfong.cc
 dns.maybe.icu
 adguard.meddy94.de
 dns.meeo.win
+testguard.meexx.de
 meganerd.nl
 httpdns.meituan.com
 dns.melalandia.tk
@@ -594,6 +640,7 @@ esel.stusta.mhn.de
 muli.stusta.mhn.de
 securenet.mhsystems.net
 doh.micronets.in
+dns.mihanentalpo.me
 dns.mikeliu.org
 dns.milkpie.one
 minilla.store
@@ -607,6 +654,7 @@ zrh1-ns01.monzoon.net
 dns.moog.sh
 dns.moonssif.com
 morbitzer.de
+doh.morizt.id
 dns.moulticast.net
 dns.mrkaran.dev
 msr177.com
@@ -619,45 +667,52 @@ dns.murgi.de
 dns.muxinghe.cn
 muxyuji.ru
 d.apemlegit.my.id
-ad-dns.lista.my.id
-adguard.lista.my.id
+dns.iki.my.id
 dns.lista.my.id
-uf-dns.lista.my.id
 dns.mikrotikrumahan.my.id
+dns.pnh.my.id
+dns.repinger.my.id
 id.terra.my.id
 dns.vmath.my.id
 adblock.mydns.network
 family.mydns.network
 freedom.mydns.network
 paranoia.mydns.network
-dgca.myds.me
 blackhole.myon.lu
 vm.mytm.cc
 area51.mywire.org
 fwgw.orangepipc.mywire.org
 dns.mzrme.cn
 n0.eu
+doh-ca.naftalie.net
 www.chungocoai.name.vn
+adguard.quydang.name.vn
 dns.narl.app
 dns.nas-server.ru
-dns.ndo.dev
+nenam.eu
 doh.neowutran.ovh
 dns.aa.net.uk
 doh.infotek.net.id
 doh.max.net.id
 cube.neubsi.at
 dns.neubsi.at
+dns.neutopia.org
+dns1.au.newpangea.de
+dns1.cl.newpangea.de
+dns1.in.newpangea.de
+dns1.sg.newpangea.de
+dns1.us.newpangea.de
 doh.luigi.nexific.it
 dns.nextdns.io
 dns1.nextdns.io
 dns2.nextdns.io
+edge.nextdns.io
 steering.nextdns.io
 dns.nhtsky.com
 doh.nic.lv
 dnsotls.lab.nic.cl
 odvr.nic.cz
 dns1.nielsdb.be
-adguard.nielsvoorn.nl
 dns.ningkelle.id
 dns.nixnet.xyz
 lux1.nixnet.xyz
@@ -668,12 +723,19 @@ dns.njal.la
 resolver.noaddns.com
 pi1.node15.com
 sink.nolo.ltd
+paulo.nom.za
 ttag.dns.nomu.pw
+dns-cybersec.nordthreatprotection.com
+dns-malwaresec.nordthreatprotection.com
+dns1.nordvpn.com
+dns2.nordvpn.com
 1.dns.noridev.moe
 dns.norvig.dk
+dns.notjakob.com
 dns.novali.date
 dns.novg.net
 dns.npe.bz
+dns.npsolution.it
 ns3.com
 ns3.cx
 ns3.link
@@ -715,19 +777,23 @@ dns.eu-frankfurt-1.oraclecloud.com
 dns.uk-london-1.oraclecloud.com
 dns.us-ashburn-1.oraclecloud.com
 dns.us-phoenix-1.oraclecloud.com
+dns.oryxlabs.com
+dns.oszx.co
 dns.ours.luxe
 outdoorchair.us
 dns.ovpn.bond
 1a.ns.ozer.im
 dns.paesa.es
 dns.panszelescik.pl
-a.passcloud.xyz
-i.passcloud.xyz
+dns-ovh.panszelescik.pl
 doh.gcp.pathofgrace.com
+dns.pccoach.nl
 rpz-public-resolver1.rrdns.pch.net
 fuchur.pentament.de
 dns.pernika.net
 darya.persiannit.net
+dns.pesaventofilippo.com
+dns.phillipjberry.net
 doh.centraleu.pi-dns.com
 dot.centraleu.pi-dns.com
 doh.pi-dns.com
@@ -759,10 +825,12 @@ sundalandia.pp.ua
 virga.pp.ua
 zxcvb.pp.ua
 dns.pragmasec.nl
+dns2.prima-solusindo.com
 agh.printk.info
 dns.privado.ovh
 orpi.privado.ovh
 project-evoex.de
+publicdnsserver.com
 pukanuragan.ru
 dns.pumpkinvrar.com
 puredns.org
@@ -772,6 +840,7 @@ at.pzhg.me
 vpsus3.pzhg.me
 doh.qis.io
 ns1.qquack.org
+hostdare.qtxd.net
 dns.quad9.net
 dns-nosec.quad9.net
 dns10.quad9.net
@@ -792,14 +861,14 @@ resolver.r0cket.net
 r1bnc.com
 dns.api.rackspacecloud.com
 dns.rafn.is
-inde.ragnvindr.org
 ns.ral9005.org
 emby.rasp.tv
-jp.ray0512.win
 la.ray0512.win
 dns.rayanbab.com
 rayneau.fr
+dns.rbn.gr
 dns.reckoningslug.name
+dnspub.restena.lu
 kaitain.restena.lu
 dns.retakecs.com
 rethinkdns.com
@@ -809,29 +878,46 @@ ricko.is
 dns.rin.sh
 adg.rokh.biz
 dns.ronc.ru
+dns.rootlab.top
 dns.rotunneling.net
-adguard-dns.rouga.ch
 o.rsaikat.com
+au.rslvr.eu
+bg.rslvr.eu
+hk.rslvr.eu
+jp.rslvr.eu
+nl.rslvr.eu
+sg.rslvr.eu
+us.rslvr.eu
+adguard.ruby.ci
 dns.rubyfish.cn
 ea-dns.rubyfish.cn
 uw-dns.rubyfish.cn
+adg.rueiliu.space
 rumpelsepp.org
+doh.runsel.id
 agh-yz.russel053.com
+drs.rustsword.com
 dns1.ryan-palmer.com
+dns1.saferbfc.org
 dns2.saferbfc.org
 safeservedns.com
 doh.safesurfer.io
 cloud.samutz.com
 dns.sarak.as
+dns.sarilouis.com
+ns1.sc-lezhi.com
 dns.scapetical.com
 dns.scarx.net
 dns.schlagheck.berlin
 dns.scuola.org
+adguard.sealyserver.com
 2.dnscrypt-cert.dns.seby.io
 doh.seby.io
 doh-2.seby.io
 dot.seby.io
+dns.seiffert.me
 dns.sellan.fr
+dns.serdcebolit.ru
 privatnas.servebeer.com
 dns.sev.monster
 pates.services.sfr.fr.casepp.sfr.fr
@@ -840,6 +926,7 @@ shalenkov.dev
 dns.shecan.ir
 free.shecan.ir
 pro.shecan.ir
+dns.sheggi.ch
 dns.shimul.me
 do.shimul.me
 adguard.shoupperuser.com
@@ -857,13 +944,14 @@ sitdns.com
 dns.skrep.eu
 dns.skrep.in
 dns.slinkyman.net
+dns.smartguard.io
 guard.sntrk.ru
 clientdns3.softcom.net
-doh.southam.family
 spacedns.org
 adguard.sparshbajaj.me
 doh-01.spectrum.com
 doh-02.spectrum.com
+dns.spirio.fr
 sriedmueadguard.casa
 adguard.sscw.win
 doh.ntu.ssooss.win
@@ -871,19 +959,23 @@ ag.ssrahul96.xyz
 dns.sstomp.nl
 dns.startupstack.tech
 dns.stevenz.net
-dns.stvsk.ml
+dns.strassmair.org
 local.sufly.top
+resolver.sunet.se
+sunnygyl.com
 dns.superstefan.win
+dns.svoi.dev
 dns.swin.pro
 switch.ch
 dns.syaifullah.com
 ibksturm.synology.me
 ihctw.synology.me
 doh.syshero.org
-vanced.sytes.net
 dns.t53.de
 dns1.techeasy.org
+vpn.technicule.info
 doh.technochat.in
+dns.technostriker.com
 dns.telekom.de
 iana.tenta.io
 opennic.tenta.io
@@ -895,6 +987,7 @@ uk.teradns.org
 dns.tesem.dog
 cloud.tezoi.com
 dns.thebuckners.org
+dns.thegoodsource.net
 dns.theres.one
 dns.therifleman.name
 blocker.thethorsens.org
@@ -903,122 +996,31 @@ dot.tiar.app
 jp.tiar.app
 doh.tiarap.org
 jp.tiarap.org
+tigrons.ru
 timmes.nl
-tk31z.com
 dns.tls-data.de
+tlz.asia
 d.toairs.com
 dot.tooli.ca
 nsc.torgues.net
 doh.totoro.pub
 dns.tracker.ink
 nebula.tru.io
-dns.truong.fi
 dns.trust404.win
+truta.org
 dns.tryk.app
 doh.ibr.cs.tu-bs.de
 nat64.tuxis.nl
 dns.twnic.tw
+adguard.twotigers.xyz
 dns.txq.life
 typaza.com
 ad.tzockt.beer
 adguard-ironhide.ultima-thule.ru
 dns.umbrella.com
 doh.umbrella.com
-anycast.uncensoreddns.org
-unicast.uncensoreddns.org
-jambi.undo.it
-dns.unerror.network
-ines.zfn.uni-bremen.de
-galileo.math.unipd.it
-resolver.unstoppable.io
-dns.unx.io
-dns.uplenk.com
-uradoori.org
-urology.wiki
-adfree.usableprivacy.net
-use-application-dns.net
-tor.vasi.li
-dns.vinnyp.xyz
-dns.vishalk.com
-dns.wahr.top
-aqua.is.my.waifu.cz
-darkness.is.my.waifu.cz
-megumin.is.my.waifu.cz
-yunyun.is.my.waifu.cz
-dns.wakgood.net
-dns.wang.art
-wantaquddin.com
-dns.wargan.io
-abel.waringer-atg.de
-dns.warpnine.de
-doh.this.web.id
-doh.wewitro.net
-dns.wibenson.cloud
-wikimedia-dns.org
-adguard.wirimij.nl
-clearweb.woodbridge.club
-home.wriedts.de
-wyx.cloud
-adb-home.xaoimoon.fr
-doh.xcom.pro
-xenergy.cc
-doh.xfinity.com
-dot.xfinity.com
-doh2.gslb2.xfinity.com
-agh.xinfeng16m.top
-v2.xx3210766.live
-dns.yameenassotally.com
-2.dnscrypt-cert.browser.yandex.net
-dns.yandex.ru
-common.dot.dns.yandex.net
-family.dot.dns.yandex.net
-safe.dot.dns.yandex.net
-dns.youni.win
-your-dns.run
-yovbak.com
-adg.yybyy.wiki
-adguard.zachitect.com
-doh.zephyrus.id
-adguard-kartoffel.zernico.de
-dns.zfsystem.tech
-zougloub.eu
-dns.zzuhacker.cn
-zuhacker.cn
-wewitro.net
-dns.wibenson.cloud
-wikimedia-dns.org
-adguard.wirimij.nl
-clearweb.woodbridge.club
-home.wriedts.de
-wyx.cloud
-adb-home.xaoimoon.fr
-doh.xcom.pro
-xenergy.cc
-doh.xfinity.com
-dot.xfinity.com
-doh2.gslb2.xfinity.com
-agh.xinfeng16m.top
-v2.xx3210766.live
-dns.yameenassotally.com
-2.dnscrypt-cert.browser.yandex.net
-dns.yandex.ru
-common.dot.dns.yandex.net
-family.dot.dns.yandex.net
-safe.dot.dns.yandex.net
-dns.youni.win
-your-dns.run
-yovbak.com
-adg.yybyy.wiki
-adguard.zachitect.com
-doh.zephyrus.id
-adguard-kartoffel.zernico.de
-dns.zfsystem.tech
-zougloub.eu
-dns.zzuhacker.cn
-zzuhacker.cn
+unasw.eu
 uncensoreddns.org
-unicast.uncensoreddns.org
-jambi.undo.it
 dns.unerror.network
 ines.zfn.uni-bremen.de
 galileo.math.unipd.it
@@ -1030,6 +1032,7 @@ urology.wiki
 dns.koala.us.to
 adfree.usableprivacy.net
 use-application-dns.net
+doh.valscosmos.com
 tor.vasi.li
 dns.vinnyp.xyz
 dns.vinokurov.tk
@@ -1049,7 +1052,6 @@ dns.warma.me
 dns.warpnine.de
 doh.this.web.id
 doh.wewitro.net
-dns.wibenson.cloud
 wikimedia-dns.org
 adguard.wirimij.nl
 clearweb.woodbridge.club
@@ -1062,6 +1064,7 @@ doh.xfinity.com
 dot.xfinity.com
 doh2.gslb2.xfinity.com
 agh.xinfeng16m.top
+dns.xwdmw.xyz
 v2.xx3210766.live
 dns.yameenassotally.com
 2.dnscrypt-cert.browser.yandex.net
@@ -1078,163 +1081,9 @@ yovbak.com
 dns.daemon.za.net
 adguard.zachitect.com
 zburger.top
-adguard-kartoffel.zernico.de
-dns.zfsystem.tech
-zougloub.eu
-dns.zzuhacker.cn
-eu
-dns.zzuhacker.cn
-acker.cn
-.zzuhacker.cn
-otally.com
-2.dnscrypt-cert.browser.yandex.net
-dns.yandex.ru
-common.dot.dns.yandex.net
-family.dot.dns.yandex.net
-safe.dot.dns.yandex.net
-dns.yatima.tv
-ychen.cf
-ychen.gq
-dns.youni.win
-your-dns.run
-yovbak.com
-dns.daemon.za.net
-adguard.zachitect.com
-zburger.top
-adguard-kartoffel.zernico.de
-dns.zfsystem.tech
-zougloub.eu
-a.zpn.me
-dns.zzuhacker.cn
-ugloub.eu
-a.zpn.me
-dns.zzuhacker.cn
-ougloub.eu
-a.zpn.me
-dns.zzuhacker.cn
-acker.cn
-burger.top
 doh.zephyrus.id
 adguard-kartoffel.zernico.de
 dns.zfsystem.tech
 zougloub.eu
 a.zpn.me
 dns.zzuhacker.cn
-3F3;">
-<div class="clearboth footercontainer">
-<div id="copyright">
-<table cellpadding="0" cellspacing="0" frame=void rules=none align="center">
-<tr>
-<td class="padding-left-20">
-<div class="padding-left-20" style="cursor:pointer;">
-<a id="footer_privacyNotice" class="color_descroption_gray" style=""
-href="../html/privacystatement.html" target="_blank"
-rel="noopener noreferrer" lang-id="privacy_notice_title"></a>
-</div>
-</td>
-<td class="padding-left-20">
-<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
-<a id="footer_userAgreement" class="color_descroption_gray" style=""
-href="" target="_blank"
-rel="noopener noreferrer" lang-id="user_agreement_title"></a>
-</div>
-</td>
-<td class="padding-left-20">
-<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
-<a id="footer_privacyPolicy" class="color_descroption_gray" style=""
-href="" target="_blank"
-rel="noopener noreferrer" lang-id="privacy_statement_title"></a>
-</div>
-</td>
-<td class="padding-left-20">
-<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
-<a href="/html/OPEN_SOURCE_SOFTWARE_NOTICE.txt" rel="noopener noreferrer"
-target="_blank" style="" class="color_descroption_gray" lang-id="footer.opensource"></a>
-</div>
-</td>
-<td id="safeinfo_td" class="padding-left-20">
-<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
-<a id="safeinfo" href="" rel="noopener noreferrer"
-target="_blank" style="" class="color_descroption_gray" lang-id="safe.question"></a>
-</div>
-</td>
-</tr>
-</table>
-<table style="margin-top:5px; margin-bottom:12px" cellpadding="0" cellspacing="0" frame=void rules=none
-align="center">
-<tr>
-<td class="padding-left-20">
-<a id="help_href" href="#" rel="noopener noreferrer" target="_blank"
-class="pull-left hide padding-left-20 color_descroption_gray" style="">
-<div class="pull-left footer-help" lang-id="footer.help">
-</div>
-</a>
-</td>
-<td class="padding-left-20" id="hilink_disenable">
-<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
-<span data-smarthome='download' style="" class="color_descroption_gray" lang-id="hilink_download"
-onclick="createHiLinkAppDownload()"></span>
-</div>
-</td>
-<td class="padding-left-20">
-<div class="padding-left-20 border_left color_descroption_gray color_border_gray" style=""
-id="footer_copyright">
-</div>
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-</div>
-<div class="clearboth">
-</div>
-<div id="submit_light" class="submit_white_content submit_background">
-<div class="common_win_top">
-</div>
-<div class="color_Darkgray color_background_white" align="center"
-style="font-size:14px;width:508px;padding-top:48px;min-height:130px;">
-<div id="forgetpassword_info" style="line-height: 25px;width: 410px;" lang-id="index.forgetpassword.info">
-</div>
-<div style="margin-top: 45px;padding-bottom: 10px;">
-<button lang-id="btn.cofirm" class="btn_normal_short"
-onclick="EMUI.LoginObjController.hideWin()">
-</button>
-</div>
-</div>
-<div class="common_win_bottom">
-</div>
-</div>
-<div id="submit_fade" class="submit_black_overlay hide">
-</div>
-<div class="hilinkapp_download_box submit_background hide">
-<div class="hilink_table_top">
-</div>
-<div class="border_left border_right margin_bottom_box2 color_background_white" style="">
-<div align="center" class="border_bottom color_Darkgray" style="height: 47px;font-size: 16px;">
-<div class="hilinkdown_left" lang-id="hilink_download">
-</div>
-<div class="btn_cancel" onclick="createHiLinkAppDownloadCancel();">
-</div>
-</div>
-<div class="hilinkapp_download_img" align="center">
-<a class="hilinkapp_download_href" href="#" rel="noopener noreferrer" target="_blank">
-<div class="hlink_qrcode">
-</div>
-</a>
-</div>
-<div align="center">
-<span class="hilinkapp_string" lang-id="index.qrcode"></span>
-</div>
-<div class="hilinkapp_btn" align="center">
-<a class="hilinkapp_download_href btn_normal_short" href="#" lang-id="IDS_common_download" rel="noopener noreferrer" target="_blank"
-style="display: block">
-</a>
-</div>
-</div>
-<div class="hilink_table_bottom">
-</div>
-</div>
-</div>
-</body>
-</html>
