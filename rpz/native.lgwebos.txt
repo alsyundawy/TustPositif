@@ -1,0 +1,43 @@
+$TTL 300
+@ SOA localhost. root.localhost. 1710746280 43200 3600 259200 300
+  NS  localhost.
+;
+; Title: HaGeZi's LG webOS Tracker DNS Blocklist
+; Description: Blocks LG webOS native broadband tracker that track your activity.
+; Homepage: https://github.com/hagezi/dns-blocklists
+; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
+; Issues: https://github.com/hagezi/dns-blocklists/issues
+; Expires: 7 days
+; Last modified: 18 Mar 2024 07:18 UTC
+; Version: 2024.0318.0718.57
+; Syntax: RPZ
+; Number of entries: 28
+;
+qt2-ngfts.lge.com CNAME .
+*.qt2-ngfts.lge.com CNAME .
+ad.lgsmartad.com CNAME .
+*.ad.lgsmartad.com CNAME .
+aic.cdpbeacon.lgtvcommon.com CNAME .
+*.aic.cdpbeacon.lgtvcommon.com CNAME .
+eic.cdpbeacon.lgtvcommon.com CNAME .
+*.eic.cdpbeacon.lgtvcommon.com CNAME .
+aic.homeprv.lgtvcommon.com CNAME .
+*.aic.homeprv.lgtvcommon.com CNAME .
+eic.homeprv.lgtvcommon.com CNAME .
+*.eic.homeprv.lgtvcommon.com CNAME .
+kic.homeprv.lgtvcommon.com CNAME .
+*.kic.homeprv.lgtvcommon.com CNAME .
+ruc.homeprv.lgtvcommon.com CNAME .
+*.ruc.homeprv.lgtvcommon.com CNAME .
+aic.nudge.lgtvcommon.com CNAME .
+*.aic.nudge.lgtvcommon.com CNAME .
+eic.nudge.lgtvcommon.com CNAME .
+*.eic.nudge.lgtvcommon.com CNAME .
+kic.nudge.lgtvcommon.com CNAME .
+*.kic.nudge.lgtvcommon.com CNAME .
+ruc.nudge.lgtvcommon.com CNAME .
+*.ruc.nudge.lgtvcommon.com CNAME .
+rdl.lgtvcommon.com CNAME .
+*.rdl.lgtvcommon.com CNAME .
+aic.wiseconfig.lgtvcommon.com CNAME .
+*.aic.wiseconfig.lgtvcommon.com CNAME .
