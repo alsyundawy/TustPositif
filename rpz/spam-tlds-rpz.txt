@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719069540 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719266580 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs
@@ -12,13 +12,15 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 22 Jun 2024 15:19 UTC
-; Version: 2024.0622.1519.04
+; Last modified: 24 Jun 2024 22:03 UTC
+; Version: 2024.0624.2203.30
 ; Syntax: RPZ
-; Number of latin TLDs: 67/143
+; Number of latin TLDs: 72/149
 ;
 *.africa CNAME .
+*.airbus CNAME .
 *.autos CNAME .
+*.aw CNAME .
 *.baby CNAME .
 *.bet CNAME .
 *.bid CNAME .
@@ -41,13 +43,15 @@ $TTL 300
 *.finance CNAME .
 *.fishing CNAME .
 *.fo CNAME .
+*.gent CNAME .
 *.gives CNAME .
 *.giving CNAME .
 *.gold CNAME .
+*.gw CNAME .
 *.hair CNAME .
 *.haus CNAME .
 *.homes CNAME .
-*.icu CNAME .
+*.international CNAME .
 *.kim CNAME .
 *.lat CNAME .
 *.llp CNAME .
@@ -55,6 +59,7 @@ $TTL 300
 *.loans CNAME .
 *.love CNAME .
 *.ltd CNAME .
+*.management CNAME .
 *.men CNAME .
 *.mom CNAME .
 *.motorcycles CNAME .
