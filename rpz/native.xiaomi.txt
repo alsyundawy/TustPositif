@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718839680 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719788700 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 19 Jun 2024 23:28 UTC
-; Version: 2024.0619.2328.07
+; Last modified: 30 Jun 2024 23:05 UTC
+; Version: 2024.0630.2305.04
 ; Syntax: RPZ
-; Number of entries: 712
+; Number of entries: 706
 ;
 imgg.traffic-media.co CNAME .
 *.imgg.traffic-media.co CNAME .
@@ -329,8 +329,6 @@ intranet.c3.bigdata-l7-trackservice.eup4xvxeqr.elb.xiaomi.com CNAME .
 *.intranet.c3.bigdata-l7-trackservice.eup4xvxeqr.elb.xiaomi.com CNAME .
 extranet.eu-east-1.miui-l7-feedback.fvlyh0lisv.elb.xiaomi.com CNAME .
 *.extranet.eu-east-1.miui-l7-feedback.fvlyh0lisv.elb.xiaomi.com CNAME .
-extranet.ap-south-1.miui-l7-feedback.gualne84bg.elb.xiaomi.com CNAME .
-*.extranet.ap-south-1.miui-l7-feedback.gualne84bg.elb.xiaomi.com CNAME .
 extranet.c4.miui-l7-feedback.izsagsovue.elb.xiaomi.com CNAME .
 *.extranet.c4.miui-l7-feedback.izsagsovue.elb.xiaomi.com CNAME .
 extranet.c3.bigdata-l7-trackservice.nbnpzmfyom.elb.xiaomi.com CNAME .
@@ -343,8 +341,6 @@ extranet.ap-southeast-1.miui-l7-feedback.s3hawgekth.elb.xiaomi.com CNAME .
 *.extranet.ap-southeast-1.miui-l7-feedback.s3hawgekth.elb.xiaomi.com CNAME .
 extranet.c3.bigdata-l7-dp-lan.x0x8wmy6im.elb.xiaomi.com CNAME .
 *.extranet.c3.bigdata-l7-dp-lan.x0x8wmy6im.elb.xiaomi.com CNAME .
-extranet.ap-south-1.miui-l7-feedback.y5qvxdjy6g.elb.xiaomi.com CNAME .
-*.extranet.ap-south-1.miui-l7-feedback.y5qvxdjy6g.elb.xiaomi.com CNAME .
 sdkconfig.ad.eu.xiaomi.com CNAME .
 *.sdkconfig.ad.eu.xiaomi.com CNAME .
 cdn.exp.xiaomi.com CNAME .
@@ -479,8 +475,6 @@ staging.appapi.n.xiaomi.com CNAME .
 *.staging.appapi.n.xiaomi.com CNAME .
 dev.staging.api.developer.n.xiaomi.com CNAME .
 *.dev.staging.api.developer.n.xiaomi.com CNAME .
-test.lbs.n.xiaomi.com CNAME .
-*.test.lbs.n.xiaomi.com CNAME .
 logs.n.xiaomi.com CNAME .
 *.logs.n.xiaomi.com CNAME .
 mon.n.xiaomi.com CNAME .
