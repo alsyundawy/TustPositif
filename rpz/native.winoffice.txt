@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720046700 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720081080 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 03 Jul 2024 22:45 UTC
-; Version: 2024.0703.2245.22
+; Last modified: 04 Jul 2024 08:18 UTC
+; Version: 2024.0704.0818.21
 ; Syntax: RPZ
-; Number of entries: 660
+; Number of entries: 658
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -445,8 +445,6 @@ activity.windows.com CNAME .
 *.activity.windows.com CNAME .
 cache.datamart.windows.com CNAME .
 *.cache.datamart.windows.com CNAME .
-feedback.windows.com CNAME .
-*.feedback.windows.com CNAME .
 sa.windows.com CNAME .
 *.sa.windows.com CNAME .
 c.xbox.com CNAME .
