@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720996740 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721169600 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 14 Jul 2024 22:39 UTC
-; Version: 2024.0714.2239.19
+; Last modified: 16 Jul 2024 22:40 UTC
+; Version: 2024.0716.2240.05
 ; Syntax: RPZ
-; Number of entries: 2954
+; Number of entries: 2964
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -27,6 +27,8 @@ img.com.ar CNAME .
 *.img.com.ar CNAME .
 dns.army CNAME .
 *.dns.army CNAME .
+v6.army CNAME .
+*.v6.army CNAME .
 notici.as CNAME .
 *.notici.as CNAME .
 cloudns.asia CNAME .
@@ -439,6 +441,8 @@ ditchyourip.com CNAME .
 *.ditchyourip.com CNAME .
 dlinkddns.com CNAME .
 *.dlinkddns.com CNAME .
+dnmcoffman.com CNAME .
+*.dnmcoffman.com CNAME .
 dns-auth.com CNAME .
 *.dns-auth.com CNAME .
 dns-dns.com CNAME .
@@ -1663,6 +1667,8 @@ malam.or.id CNAME .
 *.malam.or.id CNAME .
 now.im CNAME .
 *.now.im CNAME .
+cloudns.in CNAME .
+*.cloudns.in CNAME .
 evils.in CNAME .
 *.evils.in CNAME .
 aintno.info CNAME .
@@ -2771,6 +2777,8 @@ xsph.ru CNAME .
 *.xsph.ru CNAME .
 z86.ru CNAME .
 *.z86.ru CNAME .
+divx.se CNAME .
+*.divx.se CNAME .
 spelar.se CNAME .
 *.spelar.se CNAME .
 ftp.sh CNAME .
@@ -2963,6 +2971,8 @@ mypets.ws CNAME .
 *.mypets.ws CNAME .
 blogsite.xyz CNAME .
 *.blogsite.xyz CNAME .
+crafting.xyz CNAME .
+*.crafting.xyz CNAME .
 zapto.xyz CNAME .
 *.zapto.xyz CNAME .
 project.zone CNAME .
