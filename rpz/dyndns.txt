@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721169600 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721255760 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 16 Jul 2024 22:40 UTC
-; Version: 2024.0716.2240.05
+; Last modified: 17 Jul 2024 22:36 UTC
+; Version: 2024.0717.2236.59
 ; Syntax: RPZ
-; Number of entries: 2964
+; Number of entries: 2968
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -39,6 +39,8 @@ pii.at CNAME .
 *.pii.at CNAME .
 resolve.bar CNAME .
 *.resolve.bar CNAME .
+dyns.be CNAME .
+*.dyns.be CNAME .
 no-ip.be CNAME .
 *.no-ip.be CNAME .
 prout.be CNAME .
@@ -2651,6 +2653,8 @@ xname.org CNAME .
 *.xname.org CNAME .
 zapto.org CNAME .
 *.zapto.org CNAME .
+dynme.ovh CNAME .
+*.dynme.ovh CNAME .
 nerdpol.ovh CNAME .
 *.nerdpol.ovh CNAME .
 americajhon.com.pe CNAME .
