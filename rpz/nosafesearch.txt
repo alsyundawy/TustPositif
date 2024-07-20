@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721342100 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721428680 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 18 Jul 2024 22:35 UTC
-; Version: 2024.0718.2235.07
+; Last modified: 19 Jul 2024 22:38 UTC
+; Version: 2024.0719.2238.36
 ; Syntax: RPZ
-; Number of entries: 454
+; Number of entries: 462
 ;
 searx.32bitflo.at CNAME .
 *.searx.32bitflo.at CNAME .
@@ -63,6 +63,8 @@ search.aol.com CNAME .
 *.search.aol.com CNAME .
 baidu.com CNAME .
 *.baidu.com CNAME .
+searx.bbaovanc.com CNAME .
+*.searx.bbaovanc.com CNAME .
 searx.bissisoft.com CNAME .
 *.searx.bissisoft.com CNAME .
 boomle.com CNAME .
@@ -157,6 +159,8 @@ searx.gotrust.de CNAME .
 *.searx.gotrust.de CNAME .
 gruble.de CNAME .
 *.gruble.de CNAME .
+search.kiwitalk.de CNAME .
+*.search.kiwitalk.de CNAME .
 searx.mastodontech.de CNAME .
 *.searx.mastodontech.de CNAME .
 searx.maxxblow.de CNAME .
@@ -235,6 +239,8 @@ whoogle.dcs0.hu CNAME .
 *.whoogle.dcs0.hu CNAME .
 whoogle.lunar.icu CNAME .
 *.whoogle.lunar.icu CNAME .
+skyn3t.in CNAME .
+*.skyn3t.in CNAME .
 search.tildevarsh.in CNAME .
 *.search.tildevarsh.in CNAME .
 offtheradar.info CNAME .
@@ -457,6 +463,8 @@ searx.juancord.xyz CNAME .
 *.searx.juancord.xyz CNAME .
 search.leptons.xyz CNAME .
 *.search.leptons.xyz CNAME .
+searx.lwhr.xyz CNAME .
+*.searx.lwhr.xyz CNAME .
 searx.namejeff.xyz CNAME .
 *.searx.namejeff.xyz CNAME .
 northboot.xyz CNAME .
