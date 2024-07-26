@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721904420 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721943900 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 25 Jul 2024 10:47 UTC
-; Version: 2024.0725.1047.41
+; Last modified: 25 Jul 2024 21:45 UTC
+; Version: 2024.0725.2145.56
 ; Syntax: RPZ
-; Number of entries: 2116
+; Number of entries: 2092
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -48,8 +48,6 @@ dns.cloud88.com.au CNAME .
 *.dns.cloud88.com.au CNAME .
 dns.belnet.be CNAME .
 *.dns.belnet.be CNAME .
-dns1.nielsdb.be CNAME .
-*.dns1.nielsdb.be CNAME .
 dns1.pietjacobs.be CNAME .
 *.dns1.pietjacobs.be CNAME .
 doh.beauty CNAME .
@@ -468,8 +466,6 @@ ns.mtsoln.com CNAME .
 *.ns.mtsoln.com CNAME .
 dns.nhtsky.com CNAME .
 *.dns.nhtsky.com CNAME .
-resolver.noaddns.com CNAME .
-*.resolver.noaddns.com CNAME .
 pi1.node15.com CNAME .
 *.pi1.node15.com CNAME .
 dns-cybersec.nordthreatprotection.com CNAME .
@@ -604,8 +600,6 @@ ns1.sc-lezhi.com CNAME .
 *.ns1.sc-lezhi.com CNAME .
 dns.scapetical.com CNAME .
 *.dns.scapetical.com CNAME .
-adguard.sealyserver.com CNAME .
-*.adguard.sealyserver.com CNAME .
 privatnas.servebeer.com CNAME .
 *.privatnas.servebeer.com CNAME .
 adguard.shoupperuser.com CNAME .
@@ -860,20 +854,6 @@ n0.eu CNAME .
 *.n0.eu CNAME .
 nenam.eu CNAME .
 *.nenam.eu CNAME .
-au.rslvr.eu CNAME .
-*.au.rslvr.eu CNAME .
-bg.rslvr.eu CNAME .
-*.bg.rslvr.eu CNAME .
-hk.rslvr.eu CNAME .
-*.hk.rslvr.eu CNAME .
-jp.rslvr.eu CNAME .
-*.jp.rslvr.eu CNAME .
-nl.rslvr.eu CNAME .
-*.nl.rslvr.eu CNAME .
-sg.rslvr.eu CNAME .
-*.sg.rslvr.eu CNAME .
-us.rslvr.eu CNAME .
-*.us.rslvr.eu CNAME .
 dns.skrep.eu CNAME .
 *.dns.skrep.eu CNAME .
 unasw.eu CNAME .
@@ -1216,8 +1196,6 @@ ibksturm.synology.me CNAME .
 *.ibksturm.synology.me CNAME .
 ihctw.synology.me CNAME .
 *.ihctw.synology.me CNAME .
-dns.warma.me CNAME .
-*.dns.warma.me CNAME .
 a.zpn.me CNAME .
 *.a.zpn.me CNAME .
 br.servers.legat.ml CNAME .
@@ -2042,8 +2020,6 @@ tienpham.id.vn CNAME .
 *.tienpham.id.vn CNAME .
 www.chungocoai.name.vn CNAME .
 *.www.chungocoai.name.vn CNAME .
-adguard.quydang.name.vn CNAME .
-*.adguard.quydang.name.vn CNAME .
 dns.watch CNAME .
 *.dns.watch CNAME .
 urology.wiki CNAME .
