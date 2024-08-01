@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722470520 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722516900 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 01 Aug 2024 00:02 UTC
-; Version: 2024.0801.0002.17
+; Last modified: 01 Aug 2024 12:55 UTC
+; Version: 2024.0801.1255.30
 ; Syntax: RPZ
-; Number of entries: 134380
+; Number of entries: 134390
 ;
 smetrics.abbott CNAME .
 *.smetrics.abbott CNAME .
@@ -447,6 +447,12 @@ cdn.routy.app CNAME .
 *.cdn.routy.app CNAME .
 data-tracker-43ai52v45a-ew.a.run.app CNAME .
 *.data-tracker-43ai52v45a-ew.a.run.app CNAME .
+google-server-side-tag-manager-5s5tlofmdq-ew.a.run.app CNAME .
+*.google-server-side-tag-manager-5s5tlofmdq-ew.a.run.app CNAME .
+google-server-side-tag-manager-ben-5s5tlofmdq-ew.a.run.app CNAME .
+*.google-server-side-tag-manager-ben-5s5tlofmdq-ew.a.run.app CNAME .
+google-server-side-tag-manager-simpel-5s5tlofmdq-ew.a.run.app CNAME .
+*.google-server-side-tag-manager-simpel-5s5tlofmdq-ew.a.run.app CNAME .
 impression-tracker-service-5eimuebuhq-lz.a.run.app CNAME .
 *.impression-tracker-service-5eimuebuhq-lz.a.run.app CNAME .
 tagging-qadkfoj6ha-as.a.run.app CNAME .
@@ -2717,6 +2723,8 @@ analytics.raphadev.cc CNAME .
 *.analytics.raphadev.cc CNAME .
 rehvbghwe.cc CNAME .
 *.rehvbghwe.cc CNAME .
+rosetoys.cc CNAME .
+*.rosetoys.cc CNAME .
 sdarot.cc CNAME .
 *.sdarot.cc CNAME .
 b.sexvids.cc CNAME .
@@ -3577,8 +3585,6 @@ wwclickserv.club CNAME .
 *.wwclickserv.club CNAME .
 fuckbook.cm CNAME .
 *.fuckbook.cm CNAME .
-0j775d.cn CNAME .
-*.0j775d.cn CNAME .
 0k7wod.cn CNAME .
 *.0k7wod.cn CNAME .
 0op8kh.cn CNAME .
@@ -7321,8 +7327,6 @@ analytics.2gis.com CNAME .
 *.2qj7mq3w4uxe.com CNAME .
 2s02keqc1.com CNAME .
 *.2s02keqc1.com CNAME .
-2s8s.com CNAME .
-*.2s8s.com CNAME .
 2site.com CNAME .
 *.2site.com CNAME .
 2smarttracker.com CNAME .
@@ -11079,8 +11083,6 @@ ordt.adsafeprotected.com CNAME .
 *.ordt.adsafeprotected.com CNAME .
 orfw.adsafeprotected.com CNAME .
 *.orfw.adsafeprotected.com CNAME .
-orpixel.adsafeprotected.com CNAME .
-*.orpixel.adsafeprotected.com CNAME .
 orvideo.adsafeprotected.com CNAME .
 *.orvideo.adsafeprotected.com CNAME .
 sgfw.adsafeprotected.com CNAME .
@@ -20639,6 +20641,8 @@ fpbbdx2.bmcx.com CNAME .
 *.fpbbdx2.bmcx.com CNAME .
 bmetrack.com CNAME .
 *.bmetrack.com CNAME .
+bmetric.com CNAME .
+*.bmetric.com CNAME .
 bmfads.com CNAME .
 *.bmfads.com CNAME .
 bmgipyr.com CNAME .
@@ -37285,6 +37289,8 @@ flowitchdoctrine.com CNAME .
 *.flowitchdoctrine.com CNAME .
 ihi.flowplayer.com CNAME .
 *.ihi.flowplayer.com CNAME .
+pmi.flowplayer.com CNAME .
+*.pmi.flowplayer.com CNAME .
 floyme.com CNAME .
 *.floyme.com CNAME .
 fluctuo.com CNAME .
@@ -41811,6 +41817,8 @@ h74v6kerf.com CNAME .
 *.h74v6kerf.com CNAME .
 smetrics.ha.com CNAME .
 *.smetrics.ha.com CNAME .
+services.haaretz.com CNAME .
+*.services.haaretz.com CNAME .
 ads.haberler.com CNAME .
 *.ads.haberler.com CNAME .
 d.haberler.com CNAME .
@@ -60847,6 +60855,8 @@ opbandit.com CNAME .
 *.opbandit.com CNAME .
 opchikoritar.com CNAME .
 *.opchikoritar.com CNAME .
+opclck.com CNAME .
+*.opclck.com CNAME .
 opdavplcufic.com CNAME .
 *.opdavplcufic.com CNAME .
 smetrics.opdivo.com CNAME .
@@ -68259,6 +68269,8 @@ rapt.com CNAME .
 *.rapt.com CNAME .
 affiliate-api.raptive.com CNAME .
 *.affiliate-api.raptive.com CNAME .
+affiliate-cdn.raptive.com CNAME .
+*.affiliate-cdn.raptive.com CNAME .
 raptorserrano.com CNAME .
 *.raptorserrano.com CNAME .
 t.raptorsmartadvisor.com CNAME .
@@ -98677,6 +98689,8 @@ gitam.co.il CNAME .
 *.gitam.co.il CNAME .
 gnsdigital.co.il CNAME .
 *.gnsdigital.co.il CNAME .
+services.haaretz.co.il CNAME .
+*.services.haaretz.co.il CNAME .
 upload.kipa.co.il CNAME .
 *.upload.kipa.co.il CNAME .
 layer.co.il CNAME .
@@ -107513,6 +107527,8 @@ g2insights-cdn.azureedge.net CNAME .
 *.g2insights-cdn.azureedge.net CNAME .
 imgvisilabsnet.azureedge.net CNAME .
 *.imgvisilabsnet.azureedge.net CNAME .
+jeeng-api-prod.azureedge.net CNAME .
+*.jeeng-api-prod.azureedge.net CNAME .
 loader-cdn.azureedge.net CNAME .
 *.loader-cdn.azureedge.net CNAME .
 masdpanalytics.azureedge.net CNAME .
@@ -108573,8 +108589,6 @@ d1okyw2ay5msiy.cloudfront.net CNAME .
 *.d1okyw2ay5msiy.cloudfront.net CNAME .
 d1ol7fsyj96wwo.cloudfront.net CNAME .
 *.d1ol7fsyj96wwo.cloudfront.net CNAME .
-d1olnfqg9ss9n0.cloudfront.net CNAME .
-*.d1olnfqg9ss9n0.cloudfront.net CNAME .
 d1on4urq8lvsb1.cloudfront.net CNAME .
 *.d1on4urq8lvsb1.cloudfront.net CNAME .
 d1or04kku1mxl9.cloudfront.net CNAME .
@@ -109205,8 +109219,6 @@ d2lxztepvo7ma1.cloudfront.net CNAME .
 *.d2lxztepvo7ma1.cloudfront.net CNAME .
 d2lzu2a5ishr7o.cloudfront.net CNAME .
 *.d2lzu2a5ishr7o.cloudfront.net CNAME .
-d2m54y8a2kdtj1.cloudfront.net CNAME .
-*.d2m54y8a2kdtj1.cloudfront.net CNAME .
 d2m785nxw66jui.cloudfront.net CNAME .
 *.d2m785nxw66jui.cloudfront.net CNAME .
 d2mgk3zfd02vd2.cloudfront.net CNAME .
@@ -130319,8 +130331,6 @@ shopgcaothu.vn CNAME .
 *.shopgcaothu.vn CNAME .
 shopkellygaming.vn CNAME .
 *.shopkellygaming.vn CNAME .
-shoplienquan.vn CNAME .
-*.shoplienquan.vn CNAME .
 shopteufunny.vn CNAME .
 *.shopteufunny.vn CNAME .
 shoptienzombie.vn CNAME .
