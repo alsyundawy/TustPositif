@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722291840 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722639300 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 29 Jul 2024 22:24 UTC
-; Version: 2024.0729.2224.49
+; Last modified: 02 Aug 2024 22:55 UTC
+; Version: 2024.0802.2255.25
 ; Syntax: RPZ
-; Number of entries: 828
+; Number of entries: 838
 ;
 docs-frontier-sg.byteoversea.com CNAME .
 *.docs-frontier-sg.byteoversea.com CNAME .
@@ -663,6 +663,8 @@ pitaya-task-va.tiktokv.com CNAME .
 *.pitaya-task-va.tiktokv.com CNAME .
 pitaya-va.tiktokv.com CNAME .
 *.pitaya-va.tiktokv.com CNAME .
+pitaya16-normal-useast1a.tiktokv.com CNAME .
+*.pitaya16-normal-useast1a.tiktokv.com CNAME .
 rtc-logger-i18n.tiktokv.com CNAME .
 *.rtc-logger-i18n.tiktokv.com CNAME .
 rtc-logger-va.tiktokv.com CNAME .
@@ -813,12 +815,20 @@ xlog16-normal-useast8.us.tiktokv.com CNAME .
 *.xlog16-normal-useast8.us.tiktokv.com CNAME .
 xlog16-platform-useast5.us.tiktokv.com CNAME .
 *.xlog16-platform-useast5.us.tiktokv.com CNAME .
+webcast-frontier.tiktokv.com CNAME .
+*.webcast-frontier.tiktokv.com CNAME .
+webcast-frontier15-normal-alisg.tiktokv.com CNAME .
+*.webcast-frontier15-normal-alisg.tiktokv.com CNAME .
 webcast-frontier22-alisg.tiktokv.com CNAME .
 *.webcast-frontier22-alisg.tiktokv.com CNAME .
 webcast-frontier22-normal-alisg.tiktokv.com CNAME .
 *.webcast-frontier22-normal-alisg.tiktokv.com CNAME .
 webcast-frontier22-normal-useast1a.tiktokv.com CNAME .
 *.webcast-frontier22-normal-useast1a.tiktokv.com CNAME .
+webcast-frontier22-normal-useast2a.tiktokv.com CNAME .
+*.webcast-frontier22-normal-useast2a.tiktokv.com CNAME .
+webcast-frontier32-alisg.tiktokv.com CNAME .
+*.webcast-frontier32-alisg.tiktokv.com CNAME .
 webcast-frontier32-normal-alisg.tiktokv.com CNAME .
 *.webcast-frontier32-normal-alisg.tiktokv.com CNAME .
 webcast-frontier32-normal-useast1a.tiktokv.com CNAME .
