@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1724106960 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724193780 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 19 Aug 2024 22:36 UTC
-; Version: 2024.0819.2236.23
+; Last modified: 20 Aug 2024 22:43 UTC
+; Version: 2024.0820.2243.12
 ; Syntax: RPZ
-; Number of entries: 2714
+; Number of entries: 2740
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -58,6 +58,8 @@ dns.netraptor.com.au CNAME .
 *.dns.netraptor.com.au CNAME .
 dns.belnet.be CNAME .
 *.dns.belnet.be CNAME .
+dns1.nielsdb.be CNAME .
+*.dns1.nielsdb.be CNAME .
 dns1.pietjacobs.be CNAME .
 *.dns1.pietjacobs.be CNAME .
 doh.beauty CNAME .
@@ -480,8 +482,6 @@ dns.ihaveacloud.com CNAME .
 *.dns.ihaveacloud.com CNAME .
 dns.ikataruto.com CNAME .
 *.dns.ikataruto.com CNAME .
-buc-m2.illmods.com CNAME .
-*.buc-m2.illmods.com CNAME .
 dns.imaicool.com CNAME .
 *.dns.imaicool.com CNAME .
 noads.imbuffering.com CNAME .
@@ -698,6 +698,8 @@ ns1.sc-lezhi.com CNAME .
 *.ns1.sc-lezhi.com CNAME .
 dns.scapetical.com CNAME .
 *.dns.scapetical.com CNAME .
+adguard.sealyserver.com CNAME .
+*.adguard.sealyserver.com CNAME .
 dns.sec511.com CNAME .
 *.dns.sec511.com CNAME .
 privatnas.servebeer.com CNAME .
@@ -734,6 +736,8 @@ cloud.tezoi.com CNAME .
 *.cloud.tezoi.com CNAME .
 dns.tierradeayala.com CNAME .
 *.dns.tierradeayala.com CNAME .
+d.toairs.com CNAME .
+*.d.toairs.com CNAME .
 typaza.com CNAME .
 *.typaza.com CNAME .
 dns.umbrella.com CNAME .
@@ -946,6 +950,8 @@ adg.khon.dev CNAME .
 *.adg.khon.dev CNAME .
 korzhov.dev CNAME .
 *.korzhov.dev CNAME .
+dns.mandre.dev CNAME .
+*.dns.mandre.dev CNAME .
 dns.molinero.dev CNAME .
 *.dns.molinero.dev CNAME .
 dns.mrkaran.dev CNAME .
@@ -1022,8 +1028,22 @@ n0.eu CNAME .
 *.n0.eu CNAME .
 nenam.eu CNAME .
 *.nenam.eu CNAME .
+au.rslvr.eu CNAME .
+*.au.rslvr.eu CNAME .
+bg.rslvr.eu CNAME .
+*.bg.rslvr.eu CNAME .
 dns.rslvr.eu CNAME .
 *.dns.rslvr.eu CNAME .
+hk.rslvr.eu CNAME .
+*.hk.rslvr.eu CNAME .
+jp.rslvr.eu CNAME .
+*.jp.rslvr.eu CNAME .
+nl.rslvr.eu CNAME .
+*.nl.rslvr.eu CNAME .
+sg.rslvr.eu CNAME .
+*.sg.rslvr.eu CNAME .
+us.rslvr.eu CNAME .
+*.us.rslvr.eu CNAME .
 dns.skrep.eu CNAME .
 *.dns.skrep.eu CNAME .
 unasw.eu CNAME .
@@ -1476,6 +1496,8 @@ ibksturm.synology.me CNAME .
 *.ibksturm.synology.me CNAME .
 ihctw.synology.me CNAME .
 *.ihctw.synology.me CNAME .
+dns.warma.me CNAME .
+*.dns.warma.me CNAME .
 a.zpn.me CNAME .
 *.a.zpn.me CNAME .
 dns.chmc.ml CNAME .
@@ -1718,6 +1740,8 @@ dns.marbledfennec.net CNAME .
 *.dns.marbledfennec.net CNAME .
 securenet.mhsystems.net CNAME .
 *.securenet.mhsystems.net CNAME .
+nue2.moderateinfra.net CNAME .
+*.nue2.moderateinfra.net CNAME .
 zrh1-ns01.monzoon.net CNAME .
 *.zrh1-ns01.monzoon.net CNAME .
 dns.moulticast.net CNAME .
@@ -1726,6 +1750,8 @@ dns.mullvad.net CNAME .
 *.dns.mullvad.net CNAME .
 doh.mullvad.net CNAME .
 *.doh.mullvad.net CNAME .
+doh-ca.naftalie.net CNAME .
+*.doh-ca.naftalie.net CNAME .
 ae-fuj-w-p-1.nashkan.net CNAME .
 *.ae-fuj-w-p-1.nashkan.net CNAME .
 ae-fuj-w-p-2.nashkan.net CNAME .
@@ -2482,8 +2508,6 @@ dns.kawa.tf CNAME .
 *.dns.kawa.tf CNAME .
 jp1.f7b6h9.tk CNAME .
 *.jp1.f7b6h9.tk CNAME .
-dns.melalandia.tk CNAME .
-*.dns.melalandia.tk CNAME .
 dns.vinokurov.tk CNAME .
 *.dns.vinokurov.tk CNAME .
 dns.koala.us.to CNAME .
@@ -2598,6 +2622,8 @@ tienpham.id.vn CNAME .
 *.tienpham.id.vn CNAME .
 www.chungocoai.name.vn CNAME .
 *.www.chungocoai.name.vn CNAME .
+adguard.quydang.name.vn CNAME .
+*.adguard.quydang.name.vn CNAME .
 dns.watch CNAME .
 *.dns.watch CNAME .
 yuvelirtut.website CNAME .

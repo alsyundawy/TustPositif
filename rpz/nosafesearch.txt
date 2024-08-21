@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723501920 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724193660 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 12 Aug 2024 22:32 UTC
-; Version: 2024.0812.2232.40
+; Last modified: 20 Aug 2024 22:41 UTC
+; Version: 2024.0820.2241.07
 ; Syntax: RPZ
-; Number of entries: 458
+; Number of entries: 466
 ;
 searx.32bitflo.at CNAME .
 *.searx.32bitflo.at CNAME .
@@ -95,6 +95,8 @@ search.modalogi.com CNAME .
 *.search.modalogi.com CNAME .
 mojeek.com CNAME .
 *.mojeek.com CNAME .
+neeva.com CNAME .
+*.neeva.com CNAME .
 nibblehole.com CNAME .
 *.nibblehole.com CNAME .
 searxng.no-logs.com CNAME .
@@ -147,6 +149,8 @@ suche.dasnetzundich.de CNAME .
 *.suche.dasnetzundich.de CNAME .
 searx.decatec.de CNAME .
 *.searx.decatec.de CNAME .
+searxng.diadz.de CNAME .
+*.searxng.diadz.de CNAME .
 search.dojoro.de CNAME .
 *.search.dojoro.de CNAME .
 eulie.de CNAME .
@@ -229,6 +233,8 @@ copp.gg CNAME .
 *.copp.gg CNAME .
 spot.ecloud.global CNAME .
 *.spot.ecloud.global CNAME .
+searx.louifox.house CNAME .
+*.searx.louifox.house CNAME .
 whoogle.dcs0.hu CNAME .
 *.whoogle.dcs0.hu CNAME .
 whoogle.lunar.icu CNAME .
@@ -341,6 +347,8 @@ searx.openhoofd.nl CNAME .
 *.searx.openhoofd.nl CNAME .
 search.seds.nl CNAME .
 *.search.seds.nl CNAME .
+searx.tyil.nl CNAME .
+*.searx.tyil.nl CNAME .
 librex.yogeshlamichhane.com.np CNAME .
 *.librex.yogeshlamichhane.com.np CNAME .
 search.cronobox.one CNAME .
