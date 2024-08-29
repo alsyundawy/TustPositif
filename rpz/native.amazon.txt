@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1724627760 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724887500 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 25 Aug 2024 23:16 UTC
-; Version: 2024.0825.2316.41
+; Last modified: 28 Aug 2024 23:25 UTC
+; Version: 2024.0828.2325.04
 ; Syntax: RPZ
-; Number of entries: 704
+; Number of entries: 702
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -489,8 +489,6 @@ monitoring.ca-west-1.amazonaws.com CNAME .
 *.monitoring.ca-west-1.amazonaws.com CNAME .
 monitoring.prod.cloudwatch.amazonaws.com CNAME .
 *.monitoring.prod.cloudwatch.amazonaws.com CNAME .
-monitoring.cn-north-1.amazonaws.com CNAME .
-*.monitoring.cn-north-1.amazonaws.com CNAME .
 kinesis.eu-central-1.amazonaws.com CNAME .
 *.kinesis.eu-central-1.amazonaws.com CNAME .
 monitoring.eu-central-1.amazonaws.com CNAME .
