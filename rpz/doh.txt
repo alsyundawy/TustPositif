@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1724885700 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724972100 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 28 Aug 2024 22:55 UTC
-; Version: 2024.0828.2255.29
+; Last modified: 29 Aug 2024 22:55 UTC
+; Version: 2024.0829.2255.46
 ; Syntax: RPZ
-; Number of entries: 2730
+; Number of entries: 2724
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -338,8 +338,6 @@ doh.bt.com CNAME .
 *.doh.bt.com CNAME .
 c-dns.com CNAME .
 *.c-dns.com CNAME .
-dns.caksono.com CNAME .
-*.dns.caksono.com CNAME .
 dns.carson-family.com CNAME .
 *.dns.carson-family.com CNAME .
 dns.chriswservers.com CNAME .
@@ -1376,8 +1374,6 @@ tor.vasi.li CNAME .
 *.tor.vasi.li CNAME .
 dns.txq.life CNAME .
 *.dns.txq.life CNAME .
-dns-free.link CNAME .
-*.dns-free.link CNAME .
 eth.link CNAME .
 *.eth.link CNAME .
 ns3.link CNAME .
@@ -2050,8 +2046,6 @@ dns.faked.org CNAME .
 *.dns.faked.org CNAME .
 dns.falkenthal.org CNAME .
 *.dns.falkenthal.org CNAME .
-adguard.gambini.org CNAME .
-*.adguard.gambini.org CNAME .
 dns.girino.org CNAME .
 *.dns.girino.org CNAME .
 dns.api.globus.org CNAME .
