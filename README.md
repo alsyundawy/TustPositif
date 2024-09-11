@@ -20,7 +20,10 @@
 
 **Anda bebas untuk mengubah, mendistribusikan script ini untuk keperluan anda**
 
-**Jika Anda Menyukai dan Merasakan Manfaatnya, Silahkan Donasi ke https://www.paypal.me/alsyundawy**
+**If you find this project helpful and would like to support it, please consider donating via https://www.paypal.me/alsyundawy. Thank you for your support!**
+
+**Jika Anda merasa terbantu dan ingin mendukung proyek ini, pertimbangkan untuk berdonasi melalui https://www.paypal.me/alsyundawy. Terima kasih atas dukungannya!**
+
 
 **Credit @2024 APJII (Asosiasi Penyelenggara Jasa Internet Indonesia) & TrustPositif Kementerian Komunikasi dan Informatika (KOMINFO)**
 
