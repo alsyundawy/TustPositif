@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726093140 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726179660 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 11 Sep 2024 22:19 UTC
-; Version: 2024.0911.2219.55
+; Last modified: 12 Sep 2024 22:21 UTC
+; Version: 2024.0912.2221.06
 ; Syntax: RPZ
-; Number of entries: 2710
+; Number of entries: 2700
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -1946,14 +1946,10 @@ dns.anon.no CNAME .
 *.dns.anon.no CNAME .
 doh.serverhost.no CNAME .
 *.doh.serverhost.no CNAME .
-adg.tshost.no CNAME .
-*.adg.tshost.no CNAME .
 dns.bravoc.one CNAME .
 *.dns.bravoc.one CNAME .
 comss.one CNAME .
 *.comss.one CNAME .
-hkname.freecdn.one CNAME .
-*.hkname.freecdn.one CNAME .
 dns.hakim.one CNAME .
 *.dns.hakim.one CNAME .
 dns.karl.one CNAME .
@@ -2006,12 +2002,8 @@ home27.duckdns.org CNAME .
 *.home27.duckdns.org CNAME .
 jurre-home.duckdns.org CNAME .
 *.jurre-home.duckdns.org CNAME .
-krtekvpn.duckdns.org CNAME .
-*.krtekvpn.duckdns.org CNAME .
 osefcorp.duckdns.org CNAME .
 *.osefcorp.duckdns.org CNAME .
-punono.duckdns.org CNAME .
-*.punono.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
 *.tuandns.duckdns.org CNAME .
 tungdnsne.duckdns.org CNAME .
@@ -2034,8 +2026,6 @@ dns.faked.org CNAME .
 *.dns.faked.org CNAME .
 dns.falkenthal.org CNAME .
 *.dns.falkenthal.org CNAME .
-adguard.gambini.org CNAME .
-*.adguard.gambini.org CNAME .
 dns.girino.org CNAME .
 *.dns.girino.org CNAME .
 dns.api.globus.org CNAME .
