@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726698300 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726784640 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 18 Sep 2024 22:25 UTC
-; Version: 2024.0918.2225.07
+; Last modified: 19 Sep 2024 22:24 UTC
+; Version: 2024.0919.2224.14
 ; Syntax: RPZ
-; Number of entries: 2700
+; Number of entries: 2704
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -2000,14 +2000,20 @@ dns8.org CNAME .
 *.dns8.org CNAME .
 ns1.dotls.org CNAME .
 *.ns1.dotls.org CNAME .
+home27.duckdns.org CNAME .
+*.home27.duckdns.org CNAME .
 jurre-home.duckdns.org CNAME .
 *.jurre-home.duckdns.org CNAME .
 krtekvpn.duckdns.org CNAME .
 *.krtekvpn.duckdns.org CNAME .
 osefcorp.duckdns.org CNAME .
 *.osefcorp.duckdns.org CNAME .
+punono.duckdns.org CNAME .
+*.punono.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
 *.tuandns.duckdns.org CNAME .
+tungdnsne.duckdns.org CNAME .
+*.tungdnsne.duckdns.org CNAME .
 ueni.dyndns.org CNAME .
 *.ueni.dyndns.org CNAME .
 arashi.eu.org CNAME .
@@ -2400,8 +2406,6 @@ dns.nas-server.ru CNAME .
 *.dns.nas-server.ru CNAME .
 adguard.oms-ctr.ru CNAME .
 *.adguard.oms-ctr.ru CNAME .
-pukanuragan.ru CNAME .
-*.pukanuragan.ru CNAME .
 dns.ronc.ru CNAME .
 *.dns.ronc.ru CNAME .
 dns.serdcebolit.ru CNAME .
