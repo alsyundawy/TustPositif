@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726784640 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726957320 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 19 Sep 2024 22:24 UTC
-; Version: 2024.0919.2224.14
+; Last modified: 21 Sep 2024 22:22 UTC
+; Version: 2024.0921.2222.53
 ; Syntax: RPZ
-; Number of entries: 2704
+; Number of entries: 2700
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -30,8 +30,6 @@ dot.tiar.app CNAME .
 *.dot.tiar.app CNAME .
 jp.tiar.app CNAME .
 *.jp.tiar.app CNAME .
-dns.tryk.app CNAME .
-*.dns.tryk.app CNAME .
 dns.redhosting.com.ar CNAME .
 *.dns.redhosting.com.ar CNAME .
 dns.wang.art CNAME .
@@ -196,8 +194,6 @@ dns.baishiyuan.cn CNAME .
 *.dns.baishiyuan.cn CNAME .
 dns.beardic.cn CNAME .
 *.dns.beardic.cn CNAME .
-adguard.beliefanx.cn CNAME .
-*.adguard.beliefanx.cn CNAME .
 dns.weixin.qq.com.cn CNAME .
 *.dns.weixin.qq.com.cn CNAME .
 dns.tuna.tsinghua.edu.cn CNAME .
@@ -522,8 +518,6 @@ dns2.lezainski.com CNAME .
 *.dns2.lezainski.com CNAME .
 dns.lgprk.com CNAME .
 *.dns.lgprk.com CNAME .
-doh.linngde.com CNAME .
-*.doh.linngde.com CNAME .
 dns.lobbygod.com CNAME .
 *.dns.lobbygod.com CNAME .
 n5.lsasss.com CNAME .
@@ -2406,6 +2400,8 @@ dns.nas-server.ru CNAME .
 *.dns.nas-server.ru CNAME .
 adguard.oms-ctr.ru CNAME .
 *.adguard.oms-ctr.ru CNAME .
+pukanuragan.ru CNAME .
+*.pukanuragan.ru CNAME .
 dns.ronc.ru CNAME .
 *.dns.ronc.ru CNAME .
 dns.serdcebolit.ru CNAME .
