@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727128500 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727164560 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs - Aggressive
@@ -12,17 +12,20 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 23 Sep 2024 21:55 UTC
-; Version: 2024.0923.2155.33
+; Last modified: 24 Sep 2024 07:56 UTC
+; Version: 2024.0924.0756.26
 ; Syntax: RPZ
-; Number of latin TLDs: 187
+; Number of latin TLDs: 193
 ;
+*.actor CNAME .
 *.africa CNAME .
 *.agency CNAME .
 *.army CNAME .
 *.asia CNAME .
+*.auction CNAME .
 *.autos CNAME .
 *.baby CNAME .
+*.band CNAME .
 *.bar CNAME .
 *.beauty CNAME .
 *.best CNAME .
@@ -30,7 +33,6 @@ $TTL 300
 *.bid CNAME .
 *.bike CNAME .
 *.bingo CNAME .
-*.bio CNAME .
 *.biz CNAME .
 *.boats CNAME .
 *.bond CNAME .
@@ -72,6 +74,7 @@ $TTL 300
 *.eco CNAME .
 *.esq CNAME .
 *.events CNAME .
+*.expert CNAME .
 *.fan CNAME .
 *.fashion CNAME .
 *.finance CNAME .
@@ -79,6 +82,8 @@ $TTL 300
 *.fishing CNAME .
 *.fit CNAME .
 *.foo CNAME .
+*.forsale CNAME .
+*.foundation CNAME .
 *.fund CNAME .
 *.fyi CNAME .
 *.gdn CNAME .
@@ -115,6 +120,7 @@ $TTL 300
 *.market CNAME .
 *.markets CNAME .
 *.men CNAME .
+*.miami CNAME .
 *.ml CNAME .
 *.mom CNAME .
 *.money CNAME .
