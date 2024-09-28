@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727389260 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727474760 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 26 Sep 2024 22:21 UTC
-; Version: 2024.0926.2221.47
+; Last modified: 27 Sep 2024 22:06 UTC
+; Version: 2024.0927.2206.00
 ; Syntax: RPZ
-; Number of entries: 2698
+; Number of entries: 2700
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -66,8 +66,6 @@ ad.tzockt.beer CNAME .
 *.ad.tzockt.beer CNAME .
 dns.schlagheck.berlin CNAME .
 *.dns.schlagheck.berlin CNAME .
-adg.rokh.biz CNAME .
-*.adg.rokh.biz CNAME .
 dns.ovpn.bond CNAME .
 *.dns.ovpn.bond CNAME .
 adguard.frutuozo.com.br CNAME .
@@ -1940,6 +1938,8 @@ dns.anon.no CNAME .
 *.dns.anon.no CNAME .
 doh.serverhost.no CNAME .
 *.doh.serverhost.no CNAME .
+adg.tshost.no CNAME .
+*.adg.tshost.no CNAME .
 dns.bravoc.one CNAME .
 *.dns.bravoc.one CNAME .
 comss.one CNAME .
@@ -1996,6 +1996,8 @@ ns1.dotls.org CNAME .
 *.ns1.dotls.org CNAME .
 home27.duckdns.org CNAME .
 *.home27.duckdns.org CNAME .
+jurre-home.duckdns.org CNAME .
+*.jurre-home.duckdns.org CNAME .
 krtekvpn.duckdns.org CNAME .
 *.krtekvpn.duckdns.org CNAME .
 osefcorp.duckdns.org CNAME .
