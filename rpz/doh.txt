@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727647680 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727734020 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 29 Sep 2024 22:08 UTC
-; Version: 2024.0929.2208.33
+; Last modified: 30 Sep 2024 22:07 UTC
+; Version: 2024.0930.2207.35
 ; Syntax: RPZ
-; Number of entries: 2694
+; Number of entries: 2696
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -1994,6 +1994,8 @@ ns1.dotls.org CNAME .
 *.ns1.dotls.org CNAME .
 home27.duckdns.org CNAME .
 *.home27.duckdns.org CNAME .
+jurre-home.duckdns.org CNAME .
+*.jurre-home.duckdns.org CNAME .
 krtekvpn.duckdns.org CNAME .
 *.krtekvpn.duckdns.org CNAME .
 osefcorp.duckdns.org CNAME .
@@ -2002,6 +2004,8 @@ punono.duckdns.org CNAME .
 *.punono.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
 *.tuandns.duckdns.org CNAME .
+tungdnsne.duckdns.org CNAME .
+*.tungdnsne.duckdns.org CNAME .
 ueni.dyndns.org CNAME .
 *.ueni.dyndns.org CNAME .
 arashi.eu.org CNAME .
@@ -2040,8 +2044,6 @@ doh.kooman.org CNAME .
 *.doh.kooman.org CNAME .
 dart.kpsn.org CNAME .
 *.dart.kpsn.org CNAME .
-sby-doh.limotelu.org CNAME .
-*.sby-doh.limotelu.org CNAME .
 doh.dns1.lonet.org CNAME .
 *.doh.dns1.lonet.org CNAME .
 doh.phdns1.lonet.org CNAME .
