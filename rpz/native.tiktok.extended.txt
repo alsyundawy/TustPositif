@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727822880 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1728255000 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 01 Oct 2024 22:48 UTC
-; Version: 2024.1001.2248.41
+; Last modified: 06 Oct 2024 22:50 UTC
+; Version: 2024.1006.2250.25
 ; Syntax: RPZ
-; Number of entries: 850
+; Number of entries: 874
 ;
 docs-frontier-sg.byteoversea.com CNAME .
 *.docs-frontier-sg.byteoversea.com CNAME .
@@ -401,6 +401,26 @@ gecko31-normal-useast1a.tiktokv.com CNAME .
 *.gecko31-normal-useast1a.tiktokv.com CNAME .
 gecko31-normal-useast2a.tiktokv.com CNAME .
 *.gecko31-normal-useast2a.tiktokv.com CNAME .
+location.tiktokv.com CNAME .
+*.location.tiktokv.com CNAME .
+location-i18n.tiktokv.com CNAME .
+*.location-i18n.tiktokv.com CNAME .
+location-sg.tiktokv.com CNAME .
+*.location-sg.tiktokv.com CNAME .
+location-ttp2.tiktokv.com CNAME .
+*.location-ttp2.tiktokv.com CNAME .
+location-v6.tiktokv.com CNAME .
+*.location-v6.tiktokv.com CNAME .
+location-v6-i18n.tiktokv.com CNAME .
+*.location-v6-i18n.tiktokv.com CNAME .
+location-v6-ru.tiktokv.com CNAME .
+*.location-v6-ru.tiktokv.com CNAME .
+location-v6-sg.tiktokv.com CNAME .
+*.location-v6-sg.tiktokv.com CNAME .
+location-v6-va.tiktokv.com CNAME .
+*.location-v6-va.tiktokv.com CNAME .
+location-va.tiktokv.com CNAME .
+*.location-va.tiktokv.com CNAME .
 log.tiktokv.com CNAME .
 *.log.tiktokv.com CNAME .
 log-i18n.tiktokv.com CNAME .
@@ -775,6 +795,10 @@ gecko16-normal-useast8.us.tiktokv.com CNAME .
 *.gecko16-normal-useast8.us.tiktokv.com CNAME .
 gecko16-platform-useast5.us.tiktokv.com CNAME .
 *.gecko16-platform-useast5.us.tiktokv.com CNAME .
+location.us.tiktokv.com CNAME .
+*.location.us.tiktokv.com CNAME .
+location-ttp2.us.tiktokv.com CNAME .
+*.location-ttp2.us.tiktokv.com CNAME .
 log.us.tiktokv.com CNAME .
 *.log.us.tiktokv.com CNAME .
 log16-applog-useast5.us.tiktokv.com CNAME .
