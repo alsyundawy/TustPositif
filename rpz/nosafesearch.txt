@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727820300 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1728684540 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 01 Oct 2024 22:05 UTC
-; Version: 2024.1001.2205.10
+; Last modified: 11 Oct 2024 22:09 UTC
+; Version: 2024.1011.2209.44
 ; Syntax: RPZ
-; Number of entries: 448
+; Number of entries: 442
 ;
 searx.32bitflo.at CNAME .
 *.searx.32bitflo.at CNAME .
@@ -71,8 +71,6 @@ boomle.com CNAME .
 *.boomle.com CNAME .
 dogpile.com CNAME .
 *.dogpile.com CNAME .
-searx.dojocasts.com CNAME .
-*.searx.dojocasts.com CNAME .
 results.excite.com CNAME .
 *.results.excite.com CNAME .
 gibiru.com CNAME .
@@ -321,8 +319,6 @@ librex.nohost.network CNAME .
 *.librex.nohost.network CNAME .
 searx.ninja CNAME .
 *.searx.ninja CNAME .
-zoek.anchel.nl CNAME .
-*.zoek.anchel.nl CNAME .
 searx.doofpot.nl CNAME .
 *.searx.doofpot.nl CNAME .
 metasearch.nl CNAME .
@@ -343,8 +339,6 @@ search.bluelock.org CNAME .
 *.search.bluelock.org CNAME .
 search.bowlman.org CNAME .
 *.search.bowlman.org CNAME .
-recherche.catmargue.org CNAME .
-*.recherche.catmargue.org CNAME .
 darmarit.org CNAME .
 *.darmarit.org CNAME .
 search.decentrala.org CNAME .
