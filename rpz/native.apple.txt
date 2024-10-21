@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1729119660 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1729463940 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Apple Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 7 days
-; Last modified: 16 Oct 2024 23:01 UTC
-; Version: 2024.1016.2301.34
+; Last modified: 20 Oct 2024 22:39 UTC
+; Version: 2024.1020.2239.40
 ; Syntax: RPZ
-; Number of entries: 198
+; Number of entries: 202
 ;
 cdn-xp-ingest.edge.apple CNAME .
 *.cdn-xp-ingest.edge.apple CNAME .
@@ -87,6 +87,8 @@ idiagnostics-devices-mdn.apple.com CNAME .
 *.idiagnostics-devices-mdn.apple.com CNAME .
 idiagnostics-devices-qa.apple.com CNAME .
 *.idiagnostics-devices-qa.apple.com CNAME .
+idiagnostics-devices-reno.apple.com CNAME .
+*.idiagnostics-devices-reno.apple.com CNAME .
 idiagnostics-ft.apple.com CNAME .
 *.idiagnostics-ft.apple.com CNAME .
 idiagnostics-mdn1.apple.com CNAME .
@@ -127,6 +129,8 @@ qa-iad.apple.com CNAME .
 *.qa-iad.apple.com CNAME .
 radarsubmissions.apple.com CNAME .
 *.radarsubmissions.apple.com CNAME .
+sdkintg-iad.apple.com CNAME .
+*.sdkintg-iad.apple.com CNAME .
 sdkintgiad.apple.com CNAME .
 *.sdkintgiad.apple.com CNAME .
 searchads.apple.com CNAME .
