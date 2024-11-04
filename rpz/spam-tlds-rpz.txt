@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1730427660 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1730631600 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs
@@ -12,10 +12,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 01 Nov 2024 02:21 UTC
-; Version: 2024.1101.0221.30
+; Last modified: 03 Nov 2024 11:00 UTC
+; Version: 2024.1103.1100.22
 ; Syntax: RPZ
-; Number of latin TLDs: 103/198
+; Number of latin TLDs: 114/210
 ;
 *.actor CNAME .
 *.auction CNAME .
@@ -25,6 +25,8 @@ $TTL 300
 *.bet CNAME .
 *.bid CNAME .
 *.bingo CNAME .
+*.black CNAME .
+*.blue CNAME .
 *.boats CNAME .
 *.bond CNAME .
 *.boo CNAME .
@@ -32,8 +34,10 @@ $TTL 300
 *.boutique CNAME .
 *.builders CNAME .
 *.cam CNAME .
+*.care CNAME .
 *.careers CNAME .
 *.cash CNAME .
+*.casino CNAME .
 *.charity CNAME .
 *.christmas CNAME .
 *.claims CNAME .
@@ -63,8 +67,11 @@ $TTL 300
 *.haus CNAME .
 *.healthcare CNAME .
 *.international CNAME .
+*.irish CNAME .
 *.kim CNAME .
 *.lat CNAME .
+*.legal CNAME .
+*.lgbt CNAME .
 *.llp CNAME .
 *.loan CNAME .
 *.loans CNAME .
@@ -83,10 +90,12 @@ $TTL 300
 *.ong CNAME .
 *.parts CNAME .
 *.photo CNAME .
+*.pictures CNAME .
 *.pink CNAME .
 *.poker CNAME .
 *.post CNAME .
 *.promo CNAME .
+*.pub CNAME .
 *.realtor CNAME .
 *.recipes CNAME .
 *.rehab CNAME .
@@ -102,12 +111,14 @@ $TTL 300
 *.sport CNAME .
 *.style CNAME .
 *.support CNAME .
+*.sydney CNAME .
 *.tattoo CNAME .
 *.tax CNAME .
 *.taxi CNAME .
 *.tokyo CNAME .
 *.trading CNAME .
 *.uno CNAME .
+*.vacations CNAME .
 *.vegas CNAME .
 *.ventures CNAME .
 *.vin CNAME .

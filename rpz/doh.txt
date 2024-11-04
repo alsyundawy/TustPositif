@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1730487300 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1730694600 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -8,11 +8,11 @@ $TTL 300
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
-; Expires: 7 days
-; Last modified: 01 Nov 2024 18:55 UTC
-; Version: 2024.1101.1855.18
+; Expires: 1 day
+; Last modified: 04 Nov 2024 04:30 UTC
+; Version: 2024.1104.0430.18
 ; Syntax: RPZ
-; Number of entries: 2890
+; Number of entries: 2842
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -1080,8 +1080,6 @@ au.rslvr.eu CNAME .
 *.au.rslvr.eu CNAME .
 bg.rslvr.eu CNAME .
 *.bg.rslvr.eu CNAME .
-dns.rslvr.eu CNAME .
-*.dns.rslvr.eu CNAME .
 hk.rslvr.eu CNAME .
 *.hk.rslvr.eu CNAME .
 jp.rslvr.eu CNAME .
@@ -1214,8 +1212,6 @@ dns.marasov.id CNAME .
 *.dns.marasov.id CNAME .
 d.apemlegit.my.id CNAME .
 *.d.apemlegit.my.id CNAME .
-please.dontsteal.my.id CNAME .
-*.please.dontsteal.my.id CNAME .
 dns.iki.my.id CNAME .
 *.dns.iki.my.id CNAME .
 dns.lista.my.id CNAME .
@@ -1634,44 +1630,6 @@ mask-api.fe2.apple-dns.net CNAME .
 *.mask-api.fe2.apple-dns.net CNAME .
 mask.apple-dns.net CNAME .
 *.mask.apple-dns.net CNAME .
-ausyd2.mask-t.apple-dns.net CNAME .
-*.ausyd2.mask-t.apple-dns.net CNAME .
-deber3.mask-t.apple-dns.net CNAME .
-*.deber3.mask-t.apple-dns.net CNAME .
-dedus1.mask-t.apple-dns.net CNAME .
-*.dedus1.mask-t.apple-dns.net CNAME .
-gbslo5.mask-t.apple-dns.net CNAME .
-*.gbslo5.mask-t.apple-dns.net CNAME .
-hktko1.mask-t.apple-dns.net CNAME .
-*.hktko1.mask-t.apple-dns.net CNAME .
-iedub2.mask-t.apple-dns.net CNAME .
-*.iedub2.mask-t.apple-dns.net CNAME .
-jptyo12.mask-t.apple-dns.net CNAME .
-*.jptyo12.mask-t.apple-dns.net CNAME .
-nlhfd1.mask-t.apple-dns.net CNAME .
-*.nlhfd1.mask-t.apple-dns.net CNAME .
-sesto4.mask-t.apple-dns.net CNAME .
-*.sesto4.mask-t.apple-dns.net CNAME .
-sgsin8.mask-t.apple-dns.net CNAME .
-*.sgsin8.mask-t.apple-dns.net CNAME .
-twntc1.mask-t.apple-dns.net CNAME .
-*.twntc1.mask-t.apple-dns.net CNAME .
-usatl5.mask-t.apple-dns.net CNAME .
-*.usatl5.mask-t.apple-dns.net CNAME .
-usbos2.mask-t.apple-dns.net CNAME .
-*.usbos2.mask-t.apple-dns.net CNAME .
-uschi7.mask-t.apple-dns.net CNAME .
-*.uschi7.mask-t.apple-dns.net CNAME .
-usdal2.mask-t.apple-dns.net CNAME .
-*.usdal2.mask-t.apple-dns.net CNAME .
-usden6.mask-t.apple-dns.net CNAME .
-*.usden6.mask-t.apple-dns.net CNAME .
-uslax2.mask-t.apple-dns.net CNAME .
-*.uslax2.mask-t.apple-dns.net CNAME .
-usmia1.mask-t.apple-dns.net CNAME .
-*.usmia1.mask-t.apple-dns.net CNAME .
-usuyk1.mask-t.apple-dns.net CNAME .
-*.usuyk1.mask-t.apple-dns.net CNAME .
 doh.applied-privacy.net CNAME .
 *.doh.applied-privacy.net CNAME .
 dot1.applied-privacy.net CNAME .
@@ -2122,12 +2080,8 @@ dns8.org CNAME .
 *.dns8.org CNAME .
 ns1.dotls.org CNAME .
 *.ns1.dotls.org CNAME .
-home27.duckdns.org CNAME .
-*.home27.duckdns.org CNAME .
 jurre-home.duckdns.org CNAME .
 *.jurre-home.duckdns.org CNAME .
-krtekvpn.duckdns.org CNAME .
-*.krtekvpn.duckdns.org CNAME .
 osefcorp.duckdns.org CNAME .
 *.osefcorp.duckdns.org CNAME .
 punono.duckdns.org CNAME .
@@ -2156,8 +2110,6 @@ dns.faked.org CNAME .
 *.dns.faked.org CNAME .
 dns.falkenthal.org CNAME .
 *.dns.falkenthal.org CNAME .
-adguard.gambini.org CNAME .
-*.adguard.gambini.org CNAME .
 dns.girino.org CNAME .
 *.dns.girino.org CNAME .
 dns.api.globus.org CNAME .
