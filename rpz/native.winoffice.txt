@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1730312760 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1730869680 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -7,11 +7,11 @@ $TTL 300
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
-; Expires: 7 days
-; Last modified: 30 Oct 2024 18:26 UTC
-; Version: 2024.1030.1826.35
+; Expires: 1 day
+; Last modified: 06 Nov 2024 05:08 UTC
+; Version: 2024.1106.0508.32
 ; Syntax: RPZ
-; Number of entries: 678
+; Number of entries: 670
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -565,8 +565,6 @@ self-events-data.trafficmanager.net CNAME .
 *.self-events-data.trafficmanager.net CNAME .
 settingsfd-geo.trafficmanager.net CNAME .
 *.settingsfd-geo.trafficmanager.net CNAME .
-sre-metrics-thanos-prod.trafficmanager.net CNAME .
-*.sre-metrics-thanos-prod.trafficmanager.net CNAME .
 ssp-prod-eastus-nonmutt.trafficmanager.net CNAME .
 *.ssp-prod-eastus-nonmutt.trafficmanager.net CNAME .
 stats-partner.trafficmanager.net CNAME .
@@ -617,12 +615,6 @@ weus2watcab02.blob.core.windows.net CNAME .
 *.weus2watcab02.blob.core.windows.net CNAME .
 adsdktelemetry-prod.servicebus.windows.net CNAME .
 *.adsdktelemetry-prod.servicebus.windows.net CNAME .
-ams-euno-1-bus-analytics-1-1.servicebus.windows.net CNAME .
-*.ams-euno-1-bus-analytics-1-1.servicebus.windows.net CNAME .
-ams-usea-1-bus-analytics-1-1.servicebus.windows.net CNAME .
-*.ams-usea-1-bus-analytics-1-1.servicebus.windows.net CNAME .
-ams-usso-1-bus-analytics-1-1.servicebus.windows.net CNAME .
-*.ams-usso-1-bus-analytics-1-1.servicebus.windows.net CNAME .
 analytics-dev-lleap-events.servicebus.windows.net CNAME .
 *.analytics-dev-lleap-events.servicebus.windows.net CNAME .
 analytics-dev-simpad-events.servicebus.windows.net CNAME .
