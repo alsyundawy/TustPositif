@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1731212280 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1731384360 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 10 Nov 2024 04:18 UTC
-; Version: 2024.1110.0418.09
+; Last modified: 12 Nov 2024 04:06 UTC
+; Version: 2024.1112.0406.48
 ; Syntax: RPZ
-; Number of entries: 2834
+; Number of entries: 2836
 ;
 shield.afixer.app CNAME .
 *.shield.afixer.app CNAME .
@@ -108,8 +108,6 @@ vm.mytm.cc CNAME .
 *.vm.mytm.cc CNAME .
 secure.onedns.cc CNAME .
 *.secure.onedns.cc CNAME .
-resolve2.r9x.cc CNAME .
-*.resolve2.r9x.cc CNAME .
 xenergy.cc CNAME .
 *.xenergy.cc CNAME .
 dns.keweon.center CNAME .
@@ -1202,8 +1200,6 @@ dns.ezyss.id CNAME .
 *.dns.ezyss.id CNAME .
 dns.gnb09.id CNAME .
 *.dns.gnb09.id CNAME .
-chr.kepegawaiandju.id CNAME .
-*.chr.kepegawaiandju.id CNAME .
 dns.marasov.id CNAME .
 *.dns.marasov.id CNAME .
 d.apemlegit.my.id CNAME .
@@ -1236,6 +1232,8 @@ dns.engineer.web.id CNAME .
 *.dns.engineer.web.id CNAME .
 doh.this.web.id CNAME .
 *.doh.this.web.id CNAME .
+doh.zephyrus.id CNAME .
+*.doh.zephyrus.id CNAME .
 doh.iucc.ac.il CNAME .
 *.doh.iucc.ac.il CNAME .
 ag.hostme.co.il CNAME .
@@ -1448,6 +1446,10 @@ doh.domreg.lt CNAME .
 *.doh.domreg.lt CNAME .
 o1.lt CNAME .
 *.o1.lt CNAME .
+dns.ourvau.lt CNAME .
+*.dns.ourvau.lt CNAME .
+dns.redvau.lt CNAME .
+*.dns.redvau.lt CNAME .
 sink.nolo.ltd CNAME .
 *.sink.nolo.ltd CNAME .
 dns.circl.lu CNAME .
@@ -2114,6 +2116,8 @@ dns.api.preview.globus.org CNAME .
 *.dns.api.preview.globus.org CNAME .
 dns.goldplate.org CNAME .
 *.dns.goldplate.org CNAME .
+keithchung.hopto.org CNAME .
+*.keithchung.hopto.org CNAME .
 hshh.org CNAME .
 *.hshh.org CNAME .
 dns.jundev.org CNAME .
@@ -2604,8 +2608,6 @@ glacius.top CNAME .
 *.glacius.top CNAME .
 imperio.top CNAME .
 *.imperio.top CNAME .
-diy.itsa.top CNAME .
-*.diy.itsa.top CNAME .
 adguard.johanliebert.top CNAME .
 *.adguard.johanliebert.top CNAME .
 blog.kimiblock.top CNAME .
