@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1731208260 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1731550860 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Apple Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 10 Nov 2024 03:11 UTC
-; Version: 2024.1110.0311.15
+; Last modified: 14 Nov 2024 02:21 UTC
+; Version: 2024.1114.0221.50
 ; Syntax: RPZ
-; Number of entries: 198
+; Number of entries: 208
 ;
 cdn-xp-ingest.edge.apple CNAME .
 *.cdn-xp-ingest.edge.apple CNAME .
@@ -29,6 +29,8 @@ cdn-xp-ingest-ab.v.aaplimg.com CNAME .
 *.cdn-xp-ingest-ab.v.aaplimg.com CNAME .
 iphonesubmissions.v.aaplimg.com CNAME .
 *.iphonesubmissions.v.aaplimg.com CNAME .
+prod-event-relay-api.v.aaplimg.com CNAME .
+*.prod-event-relay-api.v.aaplimg.com CNAME .
 prod-event-relay-books-api.v.aaplimg.com CNAME .
 *.prod-event-relay-books-api.v.aaplimg.com CNAME .
 prod-event-relay-notes-api.v.aaplimg.com CNAME .
@@ -39,6 +41,8 @@ prod-event-relay-stocks-api.v.aaplimg.com CNAME .
 *.prod-event-relay-stocks-api.v.aaplimg.com CNAME .
 prod-event-relay-weather-api.v.aaplimg.com CNAME .
 *.prod-event-relay-weather-api.v.aaplimg.com CNAME .
+prod-news-notification-events.v.aaplimg.com CNAME .
+*.prod-news-notification-events.v.aaplimg.com CNAME .
 securemetrics.v.aaplimg.com CNAME .
 *.securemetrics.v.aaplimg.com CNAME .
 securemvt.v.aaplimg.com CNAME .
@@ -111,6 +115,12 @@ metrics.apple.com CNAME .
 *.metrics.apple.com CNAME .
 msc-dct-prod.msc.apple.com CNAME .
 *.msc-dct-prod.msc.apple.com CNAME .
+news-app-events.apple.com CNAME .
+*.news-app-events.apple.com CNAME .
+news-notification-events.apple.com CNAME .
+*.news-notification-events.apple.com CNAME .
+news-sports-events.apple.com CNAME .
+*.news-sports-events.apple.com CNAME .
 notes-analytics-events.apple.com CNAME .
 *.notes-analytics-events.apple.com CNAME .
 odin-signals.apple.com CNAME .
