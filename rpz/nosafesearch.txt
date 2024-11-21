@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1730870700 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1732057500 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 06 Nov 2024 05:25 UTC
-; Version: 2024.1106.0525.37
+; Last modified: 19 Nov 2024 23:05 UTC
+; Version: 2024.1119.2305.25
 ; Syntax: RPZ
-; Number of entries: 440
+; Number of entries: 448
 ;
 searx.32bitflo.at CNAME .
 *.searx.32bitflo.at CNAME .
@@ -65,6 +65,8 @@ baidu.com CNAME .
 *.baidu.com CNAME .
 searx.bbaovanc.com CNAME .
 *.searx.bbaovanc.com CNAME .
+beezboo.com CNAME .
+*.beezboo.com CNAME .
 searx.bissisoft.com CNAME .
 *.searx.bissisoft.com CNAME .
 boomle.com CNAME .
@@ -137,6 +139,8 @@ search.activemail.de CNAME .
 *.search.activemail.de CNAME .
 suche.aol.de CNAME .
 *.suche.aol.de CNAME .
+searx.catfluori.de CNAME .
+*.searx.catfluori.de CNAME .
 suche.dasnetzundich.de CNAME .
 *.suche.dasnetzundich.de CNAME .
 searx.decatec.de CNAME .
@@ -197,6 +201,8 @@ searxng.nicfab.eu CNAME .
 *.searxng.nicfab.eu CNAME .
 nigma.eu CNAME .
 *.nigma.eu CNAME .
+searx.prvcy.eu CNAME .
+*.searx.prvcy.eu CNAME .
 search.rhscz.eu CNAME .
 *.search.rhscz.eu CNAME .
 haku.ahmia.fi CNAME .
@@ -209,6 +215,8 @@ search.biboumail.fr CNAME .
 *.search.biboumail.fr CNAME .
 search.ethibox.fr CNAME .
 *.search.ethibox.fr CNAME .
+searx.guillaumea.fr CNAME .
+*.searx.guillaumea.fr CNAME .
 searx.ox2.fr CNAME .
 *.searx.ox2.fr CNAME .
 searx.rasp.fr CNAME .
@@ -393,8 +401,6 @@ searx.deepak.pro CNAME .
 *.searx.deepak.pro CNAME .
 jsearch.pw CNAME .
 *.jsearch.pw CNAME .
-unmonito.red CNAME .
-*.unmonito.red CNAME .
 searx.ro CNAME .
 *.searx.ro CNAME .
 go.mail.ru CNAME .
@@ -449,6 +455,8 @@ searx.namejeff.xyz CNAME .
 *.searx.namejeff.xyz CNAME .
 northboot.xyz CNAME .
 *.northboot.xyz CNAME .
+search.rubberverse.xyz CNAME .
+*.search.rubberverse.xyz CNAME .
 searx.xyz CNAME .
 *.searx.xyz CNAME .
 s.tokhmi.xyz CNAME .
