@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1730870040 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1732320300 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 06 Nov 2024 05:14 UTC
-; Version: 2024.1106.0514.23
+; Last modified: 23 Nov 2024 00:05 UTC
+; Version: 2024.1123.0005.48
 ; Syntax: RPZ
-; Number of entries: 872
+; Number of entries: 886
 ;
 docs-frontier-sg.byteoversea.com CNAME .
 *.docs-frontier-sg.byteoversea.com CNAME .
@@ -401,6 +401,8 @@ gecko31-normal-useast1a.tiktokv.com CNAME .
 *.gecko31-normal-useast1a.tiktokv.com CNAME .
 gecko31-normal-useast2a.tiktokv.com CNAME .
 *.gecko31-normal-useast2a.tiktokv.com CNAME .
+lemon8-api.tiktokv.com CNAME .
+*.lemon8-api.tiktokv.com CNAME .
 location.tiktokv.com CNAME .
 *.location.tiktokv.com CNAME .
 location-i18n.tiktokv.com CNAME .
@@ -885,3 +887,15 @@ xlog16-platform-ycru.tiktokv.com CNAME .
 *.xlog16-platform-ycru.tiktokv.com CNAME .
 xlog16-tmp-normal-useast1a.tiktokv.com CNAME .
 *.xlog16-tmp-normal-useast1a.tiktokv.com CNAME .
+ads-ie.tiktokw.eu CNAME .
+*.ads-ie.tiktokw.eu CNAME .
+ads-ttp2.tiktokw.eu CNAME .
+*.ads-ttp2.tiktokw.eu CNAME .
+analytics-ie.tiktokw.eu CNAME .
+*.analytics-ie.tiktokw.eu CNAME .
+analytics-ttp2.tiktokw.eu CNAME .
+*.analytics-ttp2.tiktokw.eu CNAME .
+mcs-ie.tiktokw.eu CNAME .
+*.mcs-ie.tiktokw.eu CNAME .
+mcs-ie2.tiktokw.eu CNAME .
+*.mcs-ie2.tiktokw.eu CNAME .
