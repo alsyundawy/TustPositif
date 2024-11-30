@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1732320300 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1732926300 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 23 Nov 2024 00:05 UTC
-; Version: 2024.1123.0005.48
+; Last modified: 30 Nov 2024 00:25 UTC
+; Version: 2024.1130.0025.17
 ; Syntax: RPZ
-; Number of entries: 886
+; Number of entries: 892
 ;
 docs-frontier-sg.byteoversea.com CNAME .
 *.docs-frontier-sg.byteoversea.com CNAME .
@@ -403,6 +403,10 @@ gecko31-normal-useast2a.tiktokv.com CNAME .
 *.gecko31-normal-useast2a.tiktokv.com CNAME .
 lemon8-api.tiktokv.com CNAME .
 *.lemon8-api.tiktokv.com CNAME .
+lemonapi16-normal-alisg.tiktokv.com CNAME .
+*.lemonapi16-normal-alisg.tiktokv.com CNAME .
+lemonapi22-normal-alisg.tiktokv.com CNAME .
+*.lemonapi22-normal-alisg.tiktokv.com CNAME .
 location.tiktokv.com CNAME .
 *.location.tiktokv.com CNAME .
 location-i18n.tiktokv.com CNAME .
@@ -863,6 +867,8 @@ webcast-frontier22-normal-useast1a.tiktokv.com CNAME .
 *.webcast-frontier22-normal-useast1a.tiktokv.com CNAME .
 webcast-frontier22-normal-useast2a.tiktokv.com CNAME .
 *.webcast-frontier22-normal-useast2a.tiktokv.com CNAME .
+webcast-frontier23-normal-useast1a.tiktokv.com CNAME .
+*.webcast-frontier23-normal-useast1a.tiktokv.com CNAME .
 webcast-frontier32-alisg.tiktokv.com CNAME .
 *.webcast-frontier32-alisg.tiktokv.com CNAME .
 webcast-frontier32-normal-alisg.tiktokv.com CNAME .

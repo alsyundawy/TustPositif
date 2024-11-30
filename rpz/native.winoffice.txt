@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1732522680 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1732925940 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 25 Nov 2024 08:18 UTC
-; Version: 2024.1125.0818.37
+; Last modified: 30 Nov 2024 00:19 UTC
+; Version: 2024.1130.0019.25
 ; Syntax: RPZ
-; Number of entries: 684
+; Number of entries: 686
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -71,6 +71,8 @@ brc-visio-telemetry.officeapps.live.com CNAME .
 *.brc-visio-telemetry.officeapps.live.com CNAME .
 cac-visio-telemetry.officeapps.live.com CNAME .
 *.cac-visio-telemetry.officeapps.live.com CNAME .
+chc-visio-telemetry.officeapps.live.com CNAME .
+*.chc-visio-telemetry.officeapps.live.com CNAME .
 dec-visio-telemetry.officeapps.live.com CNAME .
 *.dec-visio-telemetry.officeapps.live.com CNAME .
 euc-excel-telemetry.officeapps.live.com CNAME .
