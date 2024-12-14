@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1732528920 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1734136440 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 25 Nov 2024 10:02 UTC
-; Version: 2024.1125.1002.31
+; Last modified: 14 Dec 2024 00:34 UTC
+; Version: 2024.1214.0034.10
 ; Syntax: RPZ
-; Number of entries: 744
+; Number of entries: 738
 ;
 traffic-media.co CNAME .
 *.traffic-media.co CNAME .
@@ -209,8 +209,6 @@ srv.greenguard.sec.miui.com CNAME .
 *.srv.greenguard.sec.miui.com CNAME .
 app.greengurad.sec.miui.com CNAME .
 *.app.greengurad.sec.miui.com CNAME .
-info.sec.miui.com CNAME .
-*.info.sec.miui.com CNAME .
 info.analysis.kp.sec.miui.com CNAME .
 *.info.analysis.kp.sec.miui.com CNAME .
 mazu.sec.miui.com CNAME .
@@ -383,8 +381,6 @@ hd.xiaomi.com CNAME .
 *.hd.xiaomi.com CNAME .
 heyue.xiaomi.com CNAME .
 *.heyue.xiaomi.com CNAME .
-huodong.xiaomi.com CNAME .
-*.huodong.xiaomi.com CNAME .
 huosai.xiaomi.com CNAME .
 *.huosai.xiaomi.com CNAME .
 activity.hybrid.xiaomi.com CNAME .
@@ -499,8 +495,6 @@ tj1.staging.nfcpay.xiaomi.com CNAME .
 *.3rdupgrade.pandora.xiaomi.com CNAME .
 appstore.pandora.xiaomi.com CNAME .
 *.appstore.pandora.xiaomi.com CNAME .
-assistant.pandora.xiaomi.com CNAME .
-*.assistant.pandora.xiaomi.com CNAME .
 bossadmin.pandora.xiaomi.com CNAME .
 *.bossadmin.pandora.xiaomi.com CNAME .
 box.pandora.xiaomi.com CNAME .
