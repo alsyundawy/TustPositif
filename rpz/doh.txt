@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1734237060 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1734408960 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 15 Dec 2024 04:31 UTC
-; Version: 2024.1215.0431.13
+; Last modified: 17 Dec 2024 04:16 UTC
+; Version: 2024.1217.0416.39
 ; Syntax: RPZ
-; Number of entries: 2976
+; Number of entries: 2974
 ;
 polisitogel.accountant CNAME .
 *.polisitogel.accountant CNAME .
@@ -564,6 +564,8 @@ dns.keviland.com CNAME .
 *.dns.keviland.com CNAME .
 adguard.konikoni428.com CNAME .
 *.adguard.konikoni428.com CNAME .
+iterator.lazada.com CNAME .
+*.iterator.lazada.com CNAME .
 dns.lepilleur.com CNAME .
 *.dns.lepilleur.com CNAME .
 dns2.lezainski.com CNAME .
@@ -1340,8 +1342,6 @@ dns.api.staging.globuscs.info CNAME .
 *.dns.api.staging.globuscs.info CNAME .
 dns.api.test.globuscs.info CNAME .
 *.dns.api.test.globuscs.info CNAME .
-doh.kekew.info CNAME .
-*.doh.kekew.info CNAME .
 kilabit.info CNAME .
 *.kilabit.info CNAME .
 testaghome.meshkov.info CNAME .
@@ -1870,8 +1870,6 @@ dns.marbledfennec.net CNAME .
 *.dns.marbledfennec.net CNAME .
 securenet.mhsystems.net CNAME .
 *.securenet.mhsystems.net CNAME .
-nue2.moderateinfra.net CNAME .
-*.nue2.moderateinfra.net CNAME .
 zrh1-ns01.monzoon.net CNAME .
 *.zrh1-ns01.monzoon.net CNAME .
 dns.moulticast.net CNAME .
