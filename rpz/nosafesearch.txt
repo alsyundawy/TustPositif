@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1734738540 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1735344600 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 20 Dec 2024 23:49 UTC
-; Version: 2024.1220.2349.23
+; Last modified: 28 Dec 2024 00:10 UTC
+; Version: 2024.1228.0010.36
 ; Syntax: RPZ
-; Number of entries: 436
+; Number of entries: 442
 ;
 searx.32bitflo.at CNAME .
 *.searx.32bitflo.at CNAME .
@@ -143,6 +143,8 @@ searx.decatec.de CNAME .
 *.searx.decatec.de CNAME .
 searxng.diadz.de CNAME .
 *.searxng.diadz.de CNAME .
+search.dojoro.de CNAME .
+*.search.dojoro.de CNAME .
 eulie.de CNAME .
 *.eulie.de CNAME .
 fireball.de CNAME .
@@ -415,6 +417,8 @@ search.funami.tech CNAME .
 *.search.funami.tech CNAME .
 search.trom.tf CNAME .
 *.search.trom.tf CNAME .
+searx.ericaftereric.top CNAME .
+*.searx.ericaftereric.top CNAME .
 searx.lavatech.top CNAME .
 *.searx.lavatech.top CNAME .
 search.aol.co.uk CNAME .
@@ -449,3 +453,5 @@ searx.xyz CNAME .
 *.searx.xyz CNAME .
 s.tokhmi.xyz CNAME .
 *.s.tokhmi.xyz CNAME .
+search.zeroish.xyz CNAME .
+*.search.zeroish.xyz CNAME .
