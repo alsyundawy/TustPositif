@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1735879500 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1735908960 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 03 Jan 2025 04:45 UTC
-; Version: 2025.0103.0445.40
+; Last modified: 03 Jan 2025 12:56 UTC
+; Version: 2025.0103.1256.42
 ; Syntax: RPZ
 ; Number of entries: 2970
 ;
@@ -492,6 +492,8 @@ dns.gamban.com CNAME .
 *.dns.gamban.com CNAME .
 gclouddns.com CNAME .
 *.gclouddns.com CNAME .
+dns.glorydns.com CNAME .
+*.dns.glorydns.com CNAME .
 doh-primary-pool.goodbyegambling.com CNAME .
 *.doh-primary-pool.goodbyegambling.com CNAME .
 dns.google.com CNAME .
@@ -524,8 +526,6 @@ mask.icloud.com CNAME .
 *.mask.icloud.com CNAME .
 mask-api.icloud.com CNAME .
 *.mask-api.icloud.com CNAME .
-mask-boot.icloud.com CNAME .
-*.mask-boot.icloud.com CNAME .
 mask-canary.icloud.com CNAME .
 *.mask-canary.icloud.com CNAME .
 mask-h2.icloud.com CNAME .
