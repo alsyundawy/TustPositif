@@ -1,21 +1,22 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1736018160 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1736198400 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs
 ; Description: The Top Most Abused Top Level Domains. Only TLDs that do not have any exclusions!
 ; Source: https://www.spamhaus.org/reputation-statistics/gtlds/domains/
 ;         https://radar.cloudflare.com/email-security
+;         https://trends.netcraft.com/cybercrime/tlds
 ;         https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt
 ;         https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 04 Jan 2025 19:16 UTC
-; Version: 2025.0104.1916.07
+; Last modified: 06 Jan 2025 21:20 UTC
+; Version: 2025.0106.2120.47
 ; Syntax: RPZ
-; Number of latin TLDs: 110/216
+; Number of latin TLDs: 113/220
 ;
 *.actor CNAME .
 *.auction CNAME .
@@ -65,6 +66,7 @@ $TTL 300
 *.hair CNAME .
 *.haus CNAME .
 *.healthcare CNAME .
+*.help CNAME .
 *.international CNAME .
 *.irish CNAME .
 *.kim CNAME .
@@ -97,6 +99,7 @@ $TTL 300
 *.realtor CNAME .
 *.recipes CNAME .
 *.rehab CNAME .
+*.ren CNAME .
 *.restaurant CNAME .
 *.review CNAME .
 *.rich CNAME .
@@ -106,6 +109,7 @@ $TTL 300
 *.schule CNAME .
 *.sew CNAME .
 *.shopping CNAME .
+*.show CNAME .
 *.sport CNAME .
 *.style CNAME .
 *.sydney CNAME .
