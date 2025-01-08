@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1736307180 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1736366340 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 08 Jan 2025 03:33 UTC
-; Version: 2025.0108.0333.33
+; Last modified: 08 Jan 2025 19:59 UTC
+; Version: 2025.0108.1959.22
 ; Syntax: RPZ
-; Number of entries: 2940
+; Number of entries: 2946
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1591,6 +1591,8 @@ wan64.de CNAME .
 *.wan64.de CNAME .
 xddns.de CNAME .
 *.xddns.de CNAME .
+myaddr.dev CNAME .
+*.myaddr.dev CNAME .
 joe.dj CNAME .
 *.joe.dj CNAME .
 dyndns.dk CNAME .
@@ -1753,6 +1755,8 @@ zelslonik.info CNAME .
 *.zelslonik.info CNAME .
 dedyn.io CNAME .
 *.dedyn.io CNAME .
+myaddr.io CNAME .
+*.myaddr.io CNAME .
 sly.io CNAME .
 *.sly.io CNAME .
 tru.io CNAME .
@@ -1801,8 +1805,6 @@ allez.la CNAME .
 *.allez.la CNAME .
 project.li CNAME .
 *.project.li CNAME .
-myfritz.link CNAME .
-*.myfritz.link CNAME .
 ax.lt CNAME .
 *.ax.lt CNAME .
 gw.lt CNAME .
@@ -2813,6 +2815,10 @@ uk.to CNAME .
 *.uk.to CNAME .
 us.to CNAME .
 *.us.to CNAME .
+dyn.addr.tools CNAME .
+*.dyn.addr.tools CNAME .
+myaddr.tools CNAME .
+*.myaddr.tools CNAME .
 ntdll.top CNAME .
 *.ntdll.top CNAME .
 better-than.tv CNAME .
