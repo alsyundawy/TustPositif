@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1735942020 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1736557440 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 03 Jan 2025 22:07 UTC
-; Version: 2025.0103.2207.57
+; Last modified: 11 Jan 2025 01:04 UTC
+; Version: 2025.0111.0104.29
 ; Syntax: RPZ
 ; Number of entries: 668
 ;
@@ -225,8 +225,6 @@ watson.live.com CNAME .
 *.watson.live.com CNAME .
 ads.microsoft.com CNAME .
 *.ads.microsoft.com CNAME .
-help.ads-int.microsoft.com CNAME .
-*.help.ads-int.microsoft.com CNAME .
 adsdk.microsoft.com CNAME .
 *.adsdk.microsoft.com CNAME .
 advertising.microsoft.com CNAME .
@@ -529,6 +527,8 @@ vortex.data.trafficmanager.net CNAME .
 *.vortex.data.trafficmanager.net CNAME .
 dsp-ad-cache-tm.trafficmanager.net CNAME .
 *.dsp-ad-cache-tm.trafficmanager.net CNAME .
+adstore.response.gcp.eastus.trafficmanager.net CNAME .
+*.adstore.response.gcp.eastus.trafficmanager.net CNAME .
 adstore.response.eastus.trafficmanager.net CNAME .
 *.adstore.response.eastus.trafficmanager.net CNAME .
 telemetry.eastus.trafficmanager.net CNAME .

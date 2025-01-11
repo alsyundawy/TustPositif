@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1735901940 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1736557680 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 03 Jan 2025 10:59 UTC
-; Version: 2025.0103.1059.46
+; Last modified: 11 Jan 2025 01:08 UTC
+; Version: 2025.0111.0108.04
 ; Syntax: RPZ
-; Number of entries: 548
+; Number of entries: 554
 ;
 frontier.byteoversea.com CNAME .
 *.frontier.byteoversea.com CNAME .
@@ -155,6 +155,8 @@ ads-api.tiktok.com CNAME .
 *.ads-api.tiktok.com CNAME .
 ads-frontier.tiktok.com CNAME .
 *.ads-frontier.tiktok.com CNAME .
+ads-imapi.tiktok.com CNAME .
+*.ads-imapi.tiktok.com CNAME .
 ads-sg.tiktok.com CNAME .
 *.ads-sg.tiktok.com CNAME .
 ads-useast2a.tiktok.com CNAME .
@@ -543,6 +545,8 @@ ad.tiktokv.us CNAME .
 *.ad.tiktokv.us CNAME .
 ad-instantpage.tiktokv.us CNAME .
 *.ad-instantpage.tiktokv.us CNAME .
+ad-instantpage-ttp2.tiktokv.us CNAME .
+*.ad-instantpage-ttp2.tiktokv.us CNAME .
 location-v6.tiktokv.us CNAME .
 *.location-v6.tiktokv.us CNAME .
 location-v6-ttp2.tiktokv.us CNAME .
@@ -559,5 +563,7 @@ rtlog16-normal-useast8.tiktokv.us CNAME .
 *.rtlog16-normal-useast8.tiktokv.us CNAME .
 analytics-ipv6.tiktokw.us CNAME .
 *.analytics-ipv6.tiktokw.us CNAME .
+location.tiktokw.us CNAME .
+*.location.tiktokw.us CNAME .
 mssdk-ttp2.tiktokw.us CNAME .
 *.mssdk-ttp2.tiktokw.us CNAME .
