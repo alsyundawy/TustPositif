@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1736740560 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1736826120 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 13 Jan 2025 03:56 UTC
-; Version: 2025.0113.0356.14
+; Last modified: 14 Jan 2025 03:42 UTC
+; Version: 2025.0114.0342.07
 ; Syntax: RPZ
-; Number of entries: 2936
+; Number of entries: 2930
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -27,6 +27,8 @@ img.com.ar CNAME .
 *.img.com.ar CNAME .
 dns.army CNAME .
 *.dns.army CNAME .
+v6.army CNAME .
+*.v6.army CNAME .
 notici.as CNAME .
 *.notici.as CNAME .
 cloudns.asia CNAME .
@@ -725,8 +727,6 @@ from-wy.com CNAME .
 *.from-wy.com CNAME .
 garmanage.com CNAME .
 *.garmanage.com CNAME .
-garypatel.com CNAME .
-*.garypatel.com CNAME .
 gastright.com CNAME .
 *.gastright.com CNAME .
 geekgalaxy.com CNAME .
@@ -1781,8 +1781,6 @@ gally.jp CNAME .
 *.gally.jp CNAME .
 privateimport.jp CNAME .
 *.privateimport.jp CNAME .
-sadayuki.jp CNAME .
-*.sadayuki.jp CNAME .
 sne.jp CNAME .
 *.sne.jp CNAME .
 zsh.jp CNAME .
@@ -2255,8 +2253,6 @@ merseine.nu CNAME .
 *.merseine.nu CNAME .
 mine.nu CNAME .
 *.mine.nu CNAME .
-remotecam.nu CNAME .
-*.remotecam.nu CNAME .
 rr.nu CNAME .
 *.rr.nu CNAME .
 shacknet.nu CNAME .
@@ -2889,8 +2885,6 @@ dubya.us CNAME .
 *.dubya.us CNAME .
 duia.us CNAME .
 *.duia.us CNAME .
-dynamic-dns.us CNAME .
-*.dynamic-dns.us CNAME .
 freeddns.us CNAME .
 *.freeddns.us CNAME .
 global-instr.us CNAME .
