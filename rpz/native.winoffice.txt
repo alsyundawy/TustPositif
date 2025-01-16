@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1736968560 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1737040500 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 15 Jan 2025 19:16 UTC
-; Version: 2025.0115.1916.29
+; Last modified: 16 Jan 2025 15:15 UTC
+; Version: 2025.0116.1515.04
 ; Syntax: RPZ
-; Number of entries: 672
+; Number of entries: 684
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -49,8 +49,6 @@ g.bing.com CNAME .
 *.g.bing.com CNAME .
 raka.bing.com CNAME .
 *.raka.bing.com CNAME .
-js.monitor.azure.com.com CNAME .
-*.js.monitor.azure.com.com CNAME .
 analytics.live.com CNAME .
 *.analytics.live.com CNAME .
 c.live.com CNAME .
@@ -471,6 +469,20 @@ beacons.xboxlive.com CNAME .
 *.beacons.xboxlive.com CNAME .
 collector.azure.eaglex.ic.gov CNAME .
 *.collector.azure.eaglex.ic.gov CNAME .
+js.cdn.applicationinsights.io CNAME .
+*.js.cdn.applicationinsights.io CNAME .
+js0.cdn.applicationinsights.io CNAME .
+*.js0.cdn.applicationinsights.io CNAME .
+js1.cdn.applicationinsights.io CNAME .
+*.js1.cdn.applicationinsights.io CNAME .
+js2.cdn.applicationinsights.io CNAME .
+*.js2.cdn.applicationinsights.io CNAME .
+js0.tst.applicationinsights.io CNAME .
+*.js0.tst.applicationinsights.io CNAME .
+js1.tst.applicationinsights.io CNAME .
+*.js1.tst.applicationinsights.io CNAME .
+js2.tst.applicationinsights.io CNAME .
+*.js2.tst.applicationinsights.io CNAME .
 in.appcenter.ms CNAME .
 *.in.appcenter.ms CNAME .
 adsdkprod.azureedge.net CNAME .

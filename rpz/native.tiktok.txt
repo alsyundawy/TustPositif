@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1736557680 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1737040740 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Fingerprinting DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 11 Jan 2025 01:08 UTC
-; Version: 2025.0111.0108.04
+; Last modified: 16 Jan 2025 15:19 UTC
+; Version: 2025.0116.1519.48
 ; Syntax: RPZ
 ; Number of entries: 554
 ;
@@ -155,8 +155,6 @@ ads-api.tiktok.com CNAME .
 *.ads-api.tiktok.com CNAME .
 ads-frontier.tiktok.com CNAME .
 *.ads-frontier.tiktok.com CNAME .
-ads-imapi.tiktok.com CNAME .
-*.ads-imapi.tiktok.com CNAME .
 ads-sg.tiktok.com CNAME .
 *.ads-sg.tiktok.com CNAME .
 ads-useast2a.tiktok.com CNAME .
@@ -291,6 +289,8 @@ log22-normal.tiktokv.com CNAME .
 *.log22-normal.tiktokv.com CNAME .
 log22-normal-alisg.tiktokv.com CNAME .
 *.log22-normal-alisg.tiktokv.com CNAME .
+log22-normal-c-alisg.tiktokv.com CNAME .
+*.log22-normal-c-alisg.tiktokv.com CNAME .
 log22-normal-useast1a.tiktokv.com CNAME .
 *.log22-normal-useast1a.tiktokv.com CNAME .
 log22-normal-useast2a.tiktokv.com CNAME .
