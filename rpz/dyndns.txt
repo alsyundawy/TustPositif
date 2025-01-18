@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1737068220 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1737142200 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 16 Jan 2025 22:57 UTC
-; Version: 2025.0116.2257.35
+; Last modified: 17 Jan 2025 19:30 UTC
+; Version: 2025.0117.1930.34
 ; Syntax: RPZ
-; Number of entries: 2938
+; Number of entries: 2948
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -27,8 +27,6 @@ img.com.ar CNAME .
 *.img.com.ar CNAME .
 dns.army CNAME .
 *.dns.army CNAME .
-v6.army CNAME .
-*.v6.army CNAME .
 notici.as CNAME .
 *.notici.as CNAME .
 cloudns.asia CNAME .
@@ -217,6 +215,8 @@ dnspod.cn CNAME .
 *.dnspod.cn CNAME .
 tpddns.cn CNAME .
 *.tpddns.cn CNAME .
+changeip.co CNAME .
+*.changeip.co CNAME .
 ddns.com.co CNAME .
 *.ddns.com.co CNAME .
 dynamicdns.com.co CNAME .
@@ -477,6 +477,8 @@ dnyp.com CNAME .
 *.dnyp.com CNAME .
 doesntexist.com CNAME .
 *.doesntexist.com CNAME .
+donhoo.com CNAME .
+*.donhoo.com CNAME .
 dontexist.com CNAME .
 *.dontexist.com CNAME .
 doomdns.com CNAME .
@@ -1657,12 +1659,16 @@ dnshome.icu CNAME .
 *.dnshome.icu CNAME .
 dyndns.icu CNAME .
 *.dyndns.icu CNAME .
+nav.co.id CNAME .
+*.nav.co.id CNAME .
 malam.or.id CNAME .
 *.malam.or.id CNAME .
 now.im CNAME .
 *.now.im CNAME .
 cloudns.in CNAME .
 *.cloudns.in CNAME .
+evils.in CNAME .
+*.evils.in CNAME .
 aintno.info CNAME .
 *.aintno.info CNAME .
 barrel-of-knowledge.info CNAME .
@@ -2655,6 +2661,8 @@ x443.pw CNAME .
 *.x443.pw CNAME .
 24-7.ro CNAME .
 *.24-7.ro CNAME .
+cnstefancelmare.ro CNAME .
+*.cnstefancelmare.ro CNAME .
 duia.ro CNAME .
 *.duia.ro CNAME .
 eurotank.ro CNAME .
@@ -2893,6 +2901,8 @@ dubya.us CNAME .
 *.dubya.us CNAME .
 duia.us CNAME .
 *.duia.us CNAME .
+dynamic-dns.us CNAME .
+*.dynamic-dns.us CNAME .
 freeddns.us CNAME .
 *.freeddns.us CNAME .
 global-instr.us CNAME .
