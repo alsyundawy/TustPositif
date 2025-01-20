@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1737287160 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1737371880 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 19 Jan 2025 11:46 UTC
-; Version: 2025.0119.1146.18
+; Last modified: 20 Jan 2025 11:18 UTC
+; Version: 2025.0120.1118.19
 ; Syntax: RPZ
-; Number of entries: 684
+; Number of entries: 702
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -29,8 +29,6 @@ inference-app-gateway.koreacentral.cloudapp.azure.com CNAME .
 *.inference-app-gateway.koreacentral.cloudapp.azure.com CNAME .
 inference-app-gateway.northeurope.cloudapp.azure.com CNAME .
 *.inference-app-gateway.northeurope.cloudapp.azure.com CNAME .
-azsc-edge-bingads-westeurope.westeurope.cloudapp.azure.com CNAME .
-*.azsc-edge-bingads-westeurope.westeurope.cloudapp.azure.com CNAME .
 azsc-bingads-westus.westus.cloudapp.azure.com CNAME .
 *.azsc-bingads-westus.westus.cloudapp.azure.com CNAME .
 js.monitor.azure.com CNAME .
@@ -143,8 +141,6 @@ pgtsg1-excel-telemetry-vip.officeapps.live.com CNAME .
 *.pgtsg1-excel-telemetry-vip.officeapps.live.com CNAME .
 pgtsg1-powerpoint-telemetry-vip.officeapps.live.com CNAME .
 *.pgtsg1-powerpoint-telemetry-vip.officeapps.live.com CNAME .
-pgtsg1-word-telemetry-vip.officeapps.live.com CNAME .
-*.pgtsg1-word-telemetry-vip.officeapps.live.com CNAME .
 pgtus1-excel-telemetry-vip.officeapps.live.com CNAME .
 *.pgtus1-excel-telemetry-vip.officeapps.live.com CNAME .
 pgtus1-powerpoint-telemetry-vip.officeapps.live.com CNAME .
@@ -303,12 +299,18 @@ telemetrycollector.microsoft.com CNAME .
 *.telemetrycollector.microsoft.com CNAME .
 telemetry.urs.microsoft.com CNAME .
 *.telemetry.urs.microsoft.com CNAME .
+telemetry.visualstudio.microsoft.com CNAME .
+*.telemetry.visualstudio.microsoft.com CNAME .
 watson.microsoft.com CNAME .
 *.watson.microsoft.com CNAME .
 statsfe1.ws.microsoft.com CNAME .
 *.statsfe1.ws.microsoft.com CNAME .
 statsfe2.ws.microsoft.com CNAME .
 *.statsfe2.ws.microsoft.com CNAME .
+ac2.msn.com CNAME .
+*.ac2.msn.com CNAME .
+ac3.msn.com CNAME .
+*.ac3.msn.com CNAME .
 ad.msn.com CNAME .
 *.ad.msn.com CNAME .
 adevents.msn.com CNAME .
@@ -329,6 +331,16 @@ c.ar.msn.com CNAME .
 *.c.ar.msn.com CNAME .
 arc.msn.com CNAME .
 *.arc.msn.com CNAME .
+arc-emea.msn.com CNAME .
+*.arc-emea.msn.com CNAME .
+arc1.msn.com CNAME .
+*.arc1.msn.com CNAME .
+arc2.msn.com CNAME .
+*.arc2.msn.com CNAME .
+arc3.msn.com CNAME .
+*.arc3.msn.com CNAME .
+arc9.msn.com CNAME .
+*.arc9.msn.com CNAME .
 c.at.msn.com CNAME .
 *.c.at.msn.com CNAME .
 c.be.msn.com CNAME .
@@ -453,6 +465,8 @@ c.za.msn.com CNAME .
 *.c.za.msn.com CNAME .
 zmetrics.msn.com CNAME .
 *.zmetrics.msn.com CNAME .
+diagnostics.office.com CNAME .
+*.diagnostics.office.com CNAME .
 measure.office.com CNAME .
 *.measure.office.com CNAME .
 dc.services.visualstudio.com CNAME .
@@ -489,10 +503,16 @@ insights.cloud.microsoft CNAME .
 *.insights.cloud.microsoft CNAME .
 in.appcenter.ms CNAME .
 *.in.appcenter.ms CNAME .
+adsdkpreprod.azureedge.net CNAME .
+*.adsdkpreprod.azureedge.net CNAME .
 adsdkprod.azureedge.net CNAME .
 *.adsdkprod.azureedge.net CNAME .
+adsdkpreprod.afd.azureedge.net CNAME .
+*.adsdkpreprod.afd.azureedge.net CNAME .
 adsdkprod.afd.azureedge.net CNAME .
 *.adsdkprod.afd.azureedge.net CNAME .
+cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net CNAME .
+*.cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net CNAME .
 location-microsoft-com.b-0005.b-msedge.net CNAME .
 *.location-microsoft-com.b-0005.b-msedge.net CNAME .
 measure.office.net.edgesuite.net CNAME .
@@ -639,8 +659,6 @@ analytics-dev-simpad-events.servicebus.windows.net CNAME .
 *.analytics-dev-simpad-events.servicebus.windows.net CNAME .
 analyticsehnwe.servicebus.windows.net CNAME .
 *.analyticsehnwe.servicebus.windows.net CNAME .
-analyticsiot-prod-simpad-ehn.servicebus.windows.net CNAME .
-*.analyticsiot-prod-simpad-ehn.servicebus.windows.net CNAME .
 btv-du-dev-eventhub-streamanalytics.servicebus.windows.net CNAME .
 *.btv-du-dev-eventhub-streamanalytics.servicebus.windows.net CNAME .
 btv-du-prod-eventhub-streamanalytics.servicebus.windows.net CNAME .
