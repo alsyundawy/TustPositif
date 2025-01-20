@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1737070500 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1737287160 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 16 Jan 2025 23:35 UTC
-; Version: 2025.0116.2335.12
+; Last modified: 19 Jan 2025 11:46 UTC
+; Version: 2025.0119.1146.18
 ; Syntax: RPZ
 ; Number of entries: 684
 ;
@@ -485,12 +485,12 @@ js1.tst.applicationinsights.io CNAME .
 *.js1.tst.applicationinsights.io CNAME .
 js2.tst.applicationinsights.io CNAME .
 *.js2.tst.applicationinsights.io CNAME .
+insights.cloud.microsoft CNAME .
+*.insights.cloud.microsoft CNAME .
 in.appcenter.ms CNAME .
 *.in.appcenter.ms CNAME .
 adsdkprod.azureedge.net CNAME .
 *.adsdkprod.azureedge.net CNAME .
-adsdkprprod.azureedge.net CNAME .
-*.adsdkprprod.azureedge.net CNAME .
 adsdkprod.afd.azureedge.net CNAME .
 *.adsdkprod.afd.azureedge.net CNAME .
 location-microsoft-com.b-0005.b-msedge.net CNAME .
