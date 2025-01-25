@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1737371880 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1737739200 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 20 Jan 2025 11:18 UTC
-; Version: 2025.0120.1118.19
+; Last modified: 24 Jan 2025 17:20 UTC
+; Version: 2025.0124.1720.18
 ; Syntax: RPZ
-; Number of entries: 702
+; Number of entries: 704
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -659,6 +659,8 @@ analytics-dev-simpad-events.servicebus.windows.net CNAME .
 *.analytics-dev-simpad-events.servicebus.windows.net CNAME .
 analyticsehnwe.servicebus.windows.net CNAME .
 *.analyticsehnwe.servicebus.windows.net CNAME .
+analyticsiot-prod-simpad-ehn.servicebus.windows.net CNAME .
+*.analyticsiot-prod-simpad-ehn.servicebus.windows.net CNAME .
 btv-du-dev-eventhub-streamanalytics.servicebus.windows.net CNAME .
 *.btv-du-dev-eventhub-streamanalytics.servicebus.windows.net CNAME .
 btv-du-prod-eventhub-streamanalytics.servicebus.windows.net CNAME .
