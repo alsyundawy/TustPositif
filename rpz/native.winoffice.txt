@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1737739200 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1738368660 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 24 Jan 2025 17:20 UTC
-; Version: 2025.0124.1720.18
+; Last modified: 01 Feb 2025 00:11 UTC
+; Version: 2025.0201.0011.36
 ; Syntax: RPZ
-; Number of entries: 704
+; Number of entries: 702
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -223,6 +223,8 @@ ads.microsoft.com CNAME .
 *.ads.microsoft.com CNAME .
 adsdk.microsoft.com CNAME .
 *.adsdk.microsoft.com CNAME .
+adsstatic.microsoft.com CNAME .
+*.adsstatic.microsoft.com CNAME .
 advertising.microsoft.com CNAME .
 *.advertising.microsoft.com CNAME .
 analyticspixel.microsoft.com CNAME .
@@ -507,8 +509,6 @@ adsdkpreprod.azureedge.net CNAME .
 *.adsdkpreprod.azureedge.net CNAME .
 adsdkprod.azureedge.net CNAME .
 *.adsdkprod.azureedge.net CNAME .
-adsdkpreprod.afd.azureedge.net CNAME .
-*.adsdkpreprod.afd.azureedge.net CNAME .
 adsdkprod.afd.azureedge.net CNAME .
 *.adsdkprod.afd.azureedge.net CNAME .
 cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net CNAME .
@@ -549,8 +549,6 @@ bf-tracker-release-tm.trafficmanager.net CNAME .
 *.bf-tracker-release-tm.trafficmanager.net CNAME .
 bingads.trafficmanager.net CNAME .
 *.bingads.trafficmanager.net CNAME .
-cas-telemetry.trafficmanager.net CNAME .
-*.cas-telemetry.trafficmanager.net CNAME .
 collector-main.trafficmanager.net CNAME .
 *.collector-main.trafficmanager.net CNAME .
 tracker.flightview.com.trafficmanager.net CNAME .

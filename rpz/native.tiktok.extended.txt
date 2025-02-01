@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1737739500 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1738368960 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 24 Jan 2025 17:25 UTC
-; Version: 2025.0124.1725.39
+; Last modified: 01 Feb 2025 00:16 UTC
+; Version: 2025.0201.0016.58
 ; Syntax: RPZ
-; Number of entries: 706
+; Number of entries: 712
 ;
 frontier.byteoversea.com CNAME .
 *.frontier.byteoversea.com CNAME .
@@ -155,6 +155,8 @@ ads-api.tiktok.com CNAME .
 *.ads-api.tiktok.com CNAME .
 ads-frontier.tiktok.com CNAME .
 *.ads-frontier.tiktok.com CNAME .
+ads-service.tiktok.com CNAME .
+*.ads-service.tiktok.com CNAME .
 ads-sg.tiktok.com CNAME .
 *.ads-sg.tiktok.com CNAME .
 ads-useast2a.tiktok.com CNAME .
@@ -679,6 +681,12 @@ ads.tiktok.in CNAME .
 *.ads.tiktok.in CNAME .
 log16-normal-alisg.tiktokv.com.bytewlb.akadns.net CNAME .
 *.log16-normal-alisg.tiktokv.com.bytewlb.akadns.net CNAME .
+log16-normal-useast1a.tiktokv.com.bytewlb.akadns.net CNAME .
+*.log16-normal-useast1a.tiktokv.com.bytewlb.akadns.net CNAME .
+rtlog16-normal-alisg.tiktokv.com.bytewlb.akadns.net CNAME .
+*.rtlog16-normal-alisg.tiktokv.com.bytewlb.akadns.net CNAME .
+rtlog16-normal-useast1a.tiktokv.com.bytewlb.akadns.net CNAME .
+*.rtlog16-normal-useast1a.tiktokv.com.bytewlb.akadns.net CNAME .
 log-tiktok.byteoversea.net CNAME .
 *.log-tiktok.byteoversea.net CNAME .
 ad.tiktok.tv CNAME .
@@ -689,8 +697,6 @@ ad.tiktokv.us CNAME .
 *.ad.tiktokv.us CNAME .
 ad-instantpage.tiktokv.us CNAME .
 *.ad-instantpage.tiktokv.us CNAME .
-ad-instantpage-ttp2.tiktokv.us CNAME .
-*.ad-instantpage-ttp2.tiktokv.us CNAME .
 location-v6.tiktokv.us CNAME .
 *.location-v6.tiktokv.us CNAME .
 location-v6-ttp2.tiktokv.us CNAME .
