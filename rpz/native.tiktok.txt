@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1738368900 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1738581180 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 01 Feb 2025 00:15 UTC
-; Version: 2025.0201.0015.01
+; Last modified: 03 Feb 2025 11:13 UTC
+; Version: 2025.0203.1113.47
 ; Syntax: RPZ
-; Number of entries: 558
+; Number of entries: 568
 ;
 frontier.byteoversea.com CNAME .
 *.frontier.byteoversea.com CNAME .
@@ -211,6 +211,8 @@ mssdk.us.tiktok.com CNAME .
 *.mssdk.us.tiktok.com CNAME .
 mssdk-ttp2.us.tiktok.com CNAME .
 *.mssdk-ttp2.us.tiktok.com CNAME .
+sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
+*.sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 ad.tiktokv.com CNAME .
 *.ad.tiktokv.com CNAME .
 ad-instantpage-i18n.tiktokv.com CNAME .
@@ -519,6 +521,8 @@ ad-instantpage-ttp2.tiktokv.eu CNAME .
 *.ad-instantpage-ttp2.tiktokv.eu CNAME .
 location-v6-ttp2.tiktokv.eu CNAME .
 *.location-v6-ttp2.tiktokv.eu CNAME .
+mon.tiktokv.eu CNAME .
+*.mon.tiktokv.eu CNAME .
 rtc-logger-ie.tiktokv.eu CNAME .
 *.rtc-logger-ie.tiktokv.eu CNAME .
 rtlog16-normal-no1a.tiktokv.eu CNAME .
@@ -535,14 +539,14 @@ mcs-ie.tiktokw.eu CNAME .
 *.mcs-ie.tiktokw.eu CNAME .
 mcs-ie2.tiktokw.eu CNAME .
 *.mcs-ie2.tiktokw.eu CNAME .
+mssdk.tiktokw.eu CNAME .
+*.mssdk.tiktokw.eu CNAME .
 ads.tiktok.in CNAME .
 *.ads.tiktok.in CNAME .
-rtlog16-normal-alisg.tiktokv.com.bytewlb.akadns.net CNAME .
-*.rtlog16-normal-alisg.tiktokv.com.bytewlb.akadns.net CNAME .
-rtlog16-normal-useast1a.tiktokv.com.bytewlb.akadns.net CNAME .
-*.rtlog16-normal-useast1a.tiktokv.com.bytewlb.akadns.net CNAME .
 log-tiktok.byteoversea.net CNAME .
 *.log-tiktok.byteoversea.net CNAME .
+mcs-tiktok.byteoversea.net CNAME .
+*.mcs-tiktok.byteoversea.net CNAME .
 ad.tiktok.tv CNAME .
 *.ad.tiktok.tv CNAME .
 ads.tiktok.tv CNAME .
@@ -557,6 +561,8 @@ location-v6-ttp2.tiktokv.us CNAME .
 *.location-v6-ttp2.tiktokv.us CNAME .
 log.tiktokv.us CNAME .
 *.log.tiktokv.us CNAME .
+mcs.tiktokv.us CNAME .
+*.mcs.tiktokv.us CNAME .
 mcs-ttp2.tiktokv.us CNAME .
 *.mcs-ttp2.tiktokv.us CNAME .
 rtc-logger.tiktokv.us CNAME .
@@ -569,5 +575,9 @@ analytics-ipv6.tiktokw.us CNAME .
 *.analytics-ipv6.tiktokw.us CNAME .
 location.tiktokw.us CNAME .
 *.location.tiktokw.us CNAME .
+mcs.tiktokw.us CNAME .
+*.mcs.tiktokw.us CNAME .
+mssdk.tiktokw.us CNAME .
+*.mssdk.tiktokw.us CNAME .
 mssdk-ttp2.tiktokw.us CNAME .
 *.mssdk-ttp2.tiktokw.us CNAME .
