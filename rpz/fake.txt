@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1739188380 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1739231280 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 10 Feb 2025 11:53 UTC
-; Version: 2025.0210.1153.08
+; Last modified: 10 Feb 2025 23:48 UTC
+; Version: 2025.0210.2348.10
 ; Syntax: RPZ
 ; Number of entries: 21162
 ;
@@ -7581,6 +7581,8 @@ medikamenterezeptfrei2014.com CNAME .
 *.medikamenterezeptfrei2014.com CNAME .
 medilifescience.com CNAME .
 *.medilifescience.com CNAME .
+medrezeptfrei.com CNAME .
+*.medrezeptfrei.com CNAME .
 meds-store-24h.com CNAME .
 *.meds-store-24h.com CNAME .
 meds-tabs.com CNAME .
@@ -17659,8 +17661,6 @@ ofildeleau.fr CNAME .
 *.ofildeleau.fr CNAME .
 ohmstudio.fr CNAME .
 *.ohmstudio.fr CNAME .
-olukai-france.fr CNAME .
-*.olukai-france.fr CNAME .
 panamajack-france.fr CNAME .
 *.panamajack-france.fr CNAME .
 pharmacieamour.fr CNAME .
