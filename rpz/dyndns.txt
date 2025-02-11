@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1739201280 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1739275500 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 10 Feb 2025 15:28 UTC
-; Version: 2025.0210.1528.17
+; Last modified: 11 Feb 2025 12:05 UTC
+; Version: 2025.0211.1205.44
 ; Syntax: RPZ
-; Number of entries: 2942
+; Number of entries: 2960
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -41,6 +41,8 @@ pii.at CNAME .
 *.pii.at CNAME .
 resolve.bar CNAME .
 *.resolve.bar CNAME .
+cloudns.be CNAME .
+*.cloudns.be CNAME .
 dyns.be CNAME .
 *.dyns.be CNAME .
 no-ip.be CNAME .
@@ -61,6 +63,8 @@ chavo.biz CNAME .
 *.chavo.biz CNAME .
 cleansite.biz CNAME .
 *.cleansite.biz CNAME .
+cloudns.biz CNAME .
+*.cloudns.biz CNAME .
 d2g.biz CNAME .
 *.d2g.biz CNAME .
 dhcp.biz CNAME .
@@ -181,6 +185,8 @@ smelly.cc CNAME .
 *.smelly.cc CNAME .
 usa.cc CNAME .
 *.usa.cc CNAME .
+cloudns.ch CNAME .
+*.cloudns.ch CNAME .
 ddnss.ch CNAME .
 *.ddnss.ch CNAME .
 demoteam.ch CNAME .
@@ -833,6 +839,8 @@ instanthq.com CNAME .
 *.instanthq.com CNAME .
 ionexusa.com CNAME .
 *.ionexusa.com CNAME .
+ip-ddns.com CNAME .
+*.ip-ddns.com CNAME .
 ip-dynamic.com CNAME .
 *.ip-dynamic.com CNAME .
 iprowave.com CNAME .
@@ -1631,6 +1639,8 @@ ham.gd CNAME .
 *.ham.gd CNAME .
 wiki.gd CNAME .
 *.wiki.gd CNAME .
+work.gd CNAME .
+*.work.gd CNAME .
 info.gf CNAME .
 *.info.gf CNAME .
 cf.gs CNAME .
@@ -1755,6 +1765,8 @@ myaddr.io CNAME .
 *.myaddr.io CNAME .
 sly.io CNAME .
 *.sly.io CNAME .
+sslip.io CNAME .
+*.sslip.io CNAME .
 tru.io CNAME .
 *.tru.io CNAME .
 ydns.io CNAME .
@@ -2645,6 +2657,10 @@ noip.pl CNAME .
 *.noip.pl CNAME .
 sexmistrz.pl CNAME .
 *.sexmistrz.pl CNAME .
+run.place CNAME .
+*.run.place CNAME .
+line.pm CNAME .
+*.line.pm CNAME .
 cloudns.pro CNAME .
 *.cloudns.pro CNAME .
 dyndns.pro CNAME .
@@ -2937,6 +2953,8 @@ stuff-4-sale.us CNAME .
 *.stuff-4-sale.us CNAME .
 tobuy.us CNAME .
 *.tobuy.us CNAME .
+wwwhost.us CNAME .
+*.wwwhost.us CNAME .
 hs.vc CNAME .
 *.hs.vc CNAME .
 webs.vc CNAME .
