@@ -183,7 +183,7 @@ footer .container-fluid {
          <div class="col-sm-12">
          	<div id="caridata">
            <form id="domain" method="GET" action="https://trustpositif.komdigi.go.id/welcome" >
-           <input type="hidden" name="csrf_token" value="40cd0472d08070b1db3ef07aa0c30061" style="display: none">
+           <input type="hidden" name="csrf_token" value="e8586338501ab10f4a0809bab68ef26e" style="display: none">
            <input type="hidden" name="recaptcha_token" id="recaptchaToken">
 	         	<div class="form-group">
 				  <label for="comment"></label>
@@ -394,7 +394,7 @@ $(document).ready(function(){
               type:'ajax',
               dataType: 'json',
               url:base_url + '/Rest_server/getrecordsname_home',
-              data:{ 'csrf_token': '40cd0472d08070b1db3ef07aa0c30061', name : txt},
+              data:{ 'csrf_token': 'e8586338501ab10f4a0809bab68ef26e', name : txt},
               success: function(data){
           var resultdata = data.values;
           var passdata = resultdata[0].Domain;
