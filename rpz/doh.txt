@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1739287440 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1739374320 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 11 Feb 2025 15:24 UTC
-; Version: 2025.0211.1524.46
+; Last modified: 12 Feb 2025 15:32 UTC
+; Version: 2025.0212.1532.23
 ; Syntax: RPZ
 ; Number of entries: 2942
 ;
@@ -2154,6 +2154,8 @@ punono.duckdns.org CNAME .
 *.punono.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
 *.tuandns.duckdns.org CNAME .
+tungdnsne.duckdns.org CNAME .
+*.tungdnsne.duckdns.org CNAME .
 ueni.dyndns.org CNAME .
 *.ueni.dyndns.org CNAME .
 arashi.eu.org CNAME .
@@ -2308,8 +2310,6 @@ dns.mateo.ovh CNAME .
 *.dns.mateo.ovh CNAME .
 dns.neowutran.ovh CNAME .
 *.dns.neowutran.ovh CNAME .
-dns.privado.ovh CNAME .
-*.dns.privado.ovh CNAME .
 orpi.privado.ovh CNAME .
 *.orpi.privado.ovh CNAME .
 dns.szpadel.ovh CNAME .
