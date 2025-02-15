@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1737071040 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1739608920 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker DNS Blocklist
@@ -8,11 +8,13 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 16 Jan 2025 23:44 UTC
-; Version: 2025.0116.2344.21
+; Last modified: 15 Feb 2025 08:42 UTC
+; Version: 2025.0215.0842.06
 ; Syntax: RPZ
-; Number of entries: 174
+; Number of entries: 194
 ;
+asia-ad-mkt-vivofs.vivoglobal.com CNAME .
+*.asia-ad-mkt-vivofs.vivoglobal.com CNAME .
 asia-adlog.vivoglobal.com CNAME .
 *.asia-adlog.vivoglobal.com CNAME .
 asia-adsjssdk.vivoglobal.com CNAME .
@@ -49,6 +51,8 @@ asia-st-sl.vivoglobal.com CNAME .
 *.asia-st-sl.vivoglobal.com CNAME .
 asia-stsdk.vivoglobal.com CNAME .
 *.asia-stsdk.vivoglobal.com CNAME .
+asia-vcode-od.vivoglobal.com CNAME .
+*.asia-vcode-od.vivoglobal.com CNAME .
 asia-vcode-or.vivoglobal.com CNAME .
 *.asia-vcode-or.vivoglobal.com CNAME .
 asia-vpushonrt-stsdk.vivoglobal.com CNAME .
@@ -105,10 +109,14 @@ in-ex-adlog.vivoglobal.com CNAME .
 *.in-ex-adlog.vivoglobal.com CNAME .
 in-monitor-stsdk.vivoglobal.com CNAME .
 *.in-monitor-stsdk.vivoglobal.com CNAME .
+in-news-abroad-backstage-interface.vivoglobal.com CNAME .
+*.in-news-abroad-backstage-interface.vivoglobal.com CNAME .
 in-onrt-stsdk.vivoglobal.com CNAME .
 *.in-onrt-stsdk.vivoglobal.com CNAME .
 in-ort-stsdk.vivoglobal.com CNAME .
 *.in-ort-stsdk.vivoglobal.com CNAME .
+in-os-config-appstore.vivoglobal.com CNAME .
+*.in-os-config-appstore.vivoglobal.com CNAME .
 in-pnrt-stsdk.vivoglobal.com CNAME .
 *.in-pnrt-stsdk.vivoglobal.com CNAME .
 in-vpushonrt-stsdk.vivoglobal.com CNAME .
@@ -185,5 +193,17 @@ ru-stsdk.vivoglobal.com CNAME .
 *.ru-stsdk.vivoglobal.com CNAME .
 stsdk.vivoglobal.com CNAME .
 *.stsdk.vivoglobal.com CNAME .
+tr-domaincfg.vivoglobal.com CNAME .
+*.tr-domaincfg.vivoglobal.com CNAME .
+tr-romsp-unifyconfig.vivoglobal.com CNAME .
+*.tr-romsp-unifyconfig.vivoglobal.com CNAME .
+tr-st-sl.vivoglobal.com CNAME .
+*.tr-st-sl.vivoglobal.com CNAME .
+tr-timesync.vivoglobal.com CNAME .
+*.tr-timesync.vivoglobal.com CNAME .
+tr-vcode-api.vivoglobal.com CNAME .
+*.tr-vcode-api.vivoglobal.com CNAME .
+tr-vcode-od.vivoglobal.com CNAME .
+*.tr-vcode-od.vivoglobal.com CNAME .
 err.up.vivoglobal.com CNAME .
 *.err.up.vivoglobal.com CNAME .
