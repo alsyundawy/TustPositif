@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1739553060 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1739818380 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 14 Feb 2025 17:11 UTC
-; Version: 2025.0214.1711.43
+; Last modified: 17 Feb 2025 18:53 UTC
+; Version: 2025.0217.1853.44
 ; Syntax: RPZ
-; Number of entries: 706
+; Number of entries: 710
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -49,6 +49,8 @@ g.bing.com CNAME .
 *.g.bing.com CNAME .
 raka.bing.com CNAME .
 *.raka.bing.com CNAME .
+c.bingapis.com CNAME .
+*.c.bingapis.com CNAME .
 analytics.live.com CNAME .
 *.analytics.live.com CNAME .
 c.live.com CNAME .
@@ -505,6 +507,8 @@ insights.cloud.microsoft CNAME .
 *.insights.cloud.microsoft CNAME .
 in.appcenter.ms CNAME .
 *.in.appcenter.ms CNAME .
+c-bingapis-com.dual-a-0034.a-msedge.net CNAME .
+*.c-bingapis-com.dual-a-0034.a-msedge.net CNAME .
 measure.office.com.akamaized.net CNAME .
 *.measure.office.com.akamaized.net CNAME .
 adsdkpreprod.azureedge.net CNAME .
