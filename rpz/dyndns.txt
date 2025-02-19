@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1739849820 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1739936160 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 18 Feb 2025 03:37 UTC
-; Version: 2025.0218.0337.48
+; Last modified: 19 Feb 2025 03:36 UTC
+; Version: 2025.0219.0336.47
 ; Syntax: RPZ
-; Number of entries: 2806
+; Number of entries: 2812
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1335,6 +1335,8 @@ syntereo.com CNAME .
 *.syntereo.com CNAME .
 sysadminetworks.com CNAME .
 *.sysadminetworks.com CNAME .
+system-ns.com CNAME .
+*.system-ns.com CNAME .
 tallison.com CNAME .
 *.tallison.com CNAME .
 teaches-yoga.com CNAME .
@@ -1535,6 +1537,10 @@ srv64.de CNAME .
 *.srv64.de CNAME .
 srvdns.de CNAME .
 *.srvdns.de CNAME .
+syno-ds.de CNAME .
+*.syno-ds.de CNAME .
+synology-diskstation.de CNAME .
+*.synology-diskstation.de CNAME .
 tcp64.de CNAME .
 *.tcp64.de CNAME .
 traeumtgerade.de CNAME .
