@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1737070260 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1740182940 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Apple Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 16 Jan 2025 23:31 UTC
-; Version: 2025.0116.2331.39
+; Last modified: 22 Feb 2025 00:09 UTC
+; Version: 2025.0222.0009.42
 ; Syntax: RPZ
-; Number of entries: 184
+; Number of entries: 186
 ;
 cdn-xp-ingest.edge.apple CNAME .
 *.cdn-xp-ingest.edge.apple CNAME .
@@ -103,6 +103,8 @@ msc-dct-prod.msc.apple.com CNAME .
 *.msc-dct-prod.msc.apple.com CNAME .
 news-app-events.apple.com CNAME .
 *.news-app-events.apple.com CNAME .
+news-events.apple.com CNAME .
+*.news-events.apple.com CNAME .
 news-notification-events.apple.com CNAME .
 *.news-notification-events.apple.com CNAME .
 news-sports-events.apple.com CNAME .

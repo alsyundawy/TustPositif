@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1739098560 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1740180780 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 09 Feb 2025 10:56 UTC
-; Version: 2025.0209.1056.49
+; Last modified: 21 Feb 2025 23:33 UTC
+; Version: 2025.0221.2333.41
 ; Syntax: RPZ
-; Number of entries: 432
+; Number of entries: 436
 ;
 searx.32bitflo.at CNAME .
 *.searx.32bitflo.at CNAME .
@@ -231,6 +231,8 @@ searx.louifox.house CNAME .
 *.searx.louifox.house CNAME .
 whoogle.dcs0.hu CNAME .
 *.whoogle.dcs0.hu CNAME .
+searx.cthd.icu CNAME .
+*.searx.cthd.icu CNAME .
 whoogle.lunar.icu CNAME .
 *.whoogle.lunar.icu CNAME .
 skyn3t.in CNAME .
@@ -269,6 +271,8 @@ whoogle.ftw.lol CNAME .
 *.whoogle.ftw.lol CNAME .
 search.in.projectsegfau.lt CNAME .
 *.search.in.projectsegfau.lt CNAME .
+search.projectsegfau.lt CNAME .
+*.search.projectsegfau.lt CNAME .
 search.us.projectsegfau.lt CNAME .
 *.search.us.projectsegfau.lt CNAME .
 librex.baczek.me CNAME .

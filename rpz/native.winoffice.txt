@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1739818380 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1740183180 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 17 Feb 2025 18:53 UTC
-; Version: 2025.0217.1853.44
+; Last modified: 22 Feb 2025 00:13 UTC
+; Version: 2025.0222.0013.05
 ; Syntax: RPZ
-; Number of entries: 710
+; Number of entries: 704
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -93,8 +93,6 @@ frc-visio-telemetry.officeapps.live.com CNAME .
 *.frc-visio-telemetry.officeapps.live.com CNAME .
 inc-visio-telemetry.officeapps.live.com CNAME .
 *.inc-visio-telemetry.officeapps.live.com CNAME .
-jpc-visio-telemetry.officeapps.live.com CNAME .
-*.jpc-visio-telemetry.officeapps.live.com CNAME .
 nexus.officeapps.live.com CNAME .
 *.nexus.officeapps.live.com CNAME .
 nexusrules.officeapps.live.com CNAME .
@@ -511,12 +509,8 @@ c-bingapis-com.dual-a-0034.a-msedge.net CNAME .
 *.c-bingapis-com.dual-a-0034.a-msedge.net CNAME .
 measure.office.com.akamaized.net CNAME .
 *.measure.office.com.akamaized.net CNAME .
-adsdkpreprod.azureedge.net CNAME .
-*.adsdkpreprod.azureedge.net CNAME .
 adsdkprod.azureedge.net CNAME .
 *.adsdkprod.azureedge.net CNAME .
-adsdkpreprod.afd.azureedge.net CNAME .
-*.adsdkpreprod.afd.azureedge.net CNAME .
 adsdkprod.afd.azureedge.net CNAME .
 *.adsdkprod.afd.azureedge.net CNAME .
 cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net CNAME .
