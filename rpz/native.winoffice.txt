@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1740183180 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1740643860 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 22 Feb 2025 00:13 UTC
-; Version: 2025.0222.0013.05
+; Last modified: 27 Feb 2025 08:11 UTC
+; Version: 2025.0227.0811.04
 ; Syntax: RPZ
-; Number of entries: 704
+; Number of entries: 700
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -531,8 +531,6 @@ win10-trt.msedge.net CNAME .
 *.win10-trt.msedge.net CNAME .
 measure.office.net CNAME .
 *.measure.office.net CNAME .
-hubblecontent.osi.office.net CNAME .
-*.hubblecontent.osi.office.net CNAME .
 adsdk.trafficmanager.net CNAME .
 *.adsdk.trafficmanager.net CNAME .
 agps-location-livenet.trafficmanager.net CNAME .
@@ -659,8 +657,6 @@ analytics-dev-simpad-events.servicebus.windows.net CNAME .
 *.analytics-dev-simpad-events.servicebus.windows.net CNAME .
 analyticsehnwe.servicebus.windows.net CNAME .
 *.analyticsehnwe.servicebus.windows.net CNAME .
-analyticsiot-prod-simpad-ehn.servicebus.windows.net CNAME .
-*.analyticsiot-prod-simpad-ehn.servicebus.windows.net CNAME .
 btv-du-dev-eventhub-streamanalytics.servicebus.windows.net CNAME .
 *.btv-du-dev-eventhub-streamanalytics.servicebus.windows.net CNAME .
 btv-du-prod-eventhub-streamanalytics.servicebus.windows.net CNAME .
